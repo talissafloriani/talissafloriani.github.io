@@ -1,6 +1,6 @@
 ----
-layout: page
 title: "About"
+layout: page
 ----
 Hello there!  
 My name is Talissa Floriani, I'm an agronomist passionate for plants and genes. I'm currently a master's student in Genetics and Plant Breeding at the University of Sao Paulo (USP) - Brazil, so feel free to talk to me about this subject.  
