@@ -31,7 +31,7 @@ See ya! :)
         </div>
 
         <div class="span2">
-        <a href="https://github.com/talissafloriani/talissafloriani.github.io/blob/main/assets/prof_pic_2021.jpg">
+        <a href="https://talissafloriani.github.io/assets/prof_pic_2021.jpg">
             <img src="../assets/prof_pic_2021.jpg"
                   title="Talissa Floriani" alt="Talissa Floriani"/></a>
         </div>
