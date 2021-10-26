@@ -32,12 +32,12 @@ See ya! :)
             <div id="hide_email">
             Email: talissafloriani@usp.br
             </div>
-        </div>
-
+        </div>  
+ 
         <div class="span2">
         <a href="https://raw.githubusercontent.com/talissafloriani/talissafloriani.github.io/main/assets/prof_pic_2021.jpg">
-            <img src="https://raw.githubusercontent.com/talissafloriani/talissafloriani.github.io/main/assets/prof_pic_2021.jpg"
-                  title="Talissa Floriani" alt="Talissa Floriani"/></a>
+            <img src="https://raw.githubusercontent.com/talissafloriani/talissafloriani.github.io/main/assets/prof_pic_2021.jpg">
+                title="Talissa Floriani" alt="Talissa Floriani"/></a>
         </div>
     </div>
 </div>
