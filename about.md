@@ -22,7 +22,7 @@ See ya! :)
             <a href="http://www.genetica.esalq.usp.br/">Department of Genetics</a><br/>
             <a href="https://www5.usp.br/">University of São Paulo - ESALQ/USP</a><br/>
             <a href="https://statgen-esalq.github.io/"> Statistics Genetics Lab</a><br/>
-            Piracicaba, São Paulo 53706<br/>
+            Piracicaba, São Paulo<br/>
             Brazil<br/><br/>
 
             <div id="hide_email">
@@ -31,7 +31,7 @@ See ya! :)
         </div>
 
         <div class="span2">
-        <a href="../assets/prof_pic_2021.jpg">
+        <a href="https://github.com/talissafloriani/talissafloriani.github.io/blob/main/assets/prof_pic_2021.jpg">
             <img src="../assets/prof_pic_2021.jpg"
                   title="Talissa Floriani" alt="Talissa Floriani"/></a>
         </div>
