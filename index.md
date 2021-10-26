@@ -1,7 +1,4 @@
-----
-layout: default
-title: "Home"
-----
+
 {% if site.shows_excerpts %}
   {% include home.html %}
 {% else %}
