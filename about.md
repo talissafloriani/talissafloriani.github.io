@@ -36,7 +36,7 @@ See ya! :)
 
         <div class="span2">
         <a href="https://raw.githubusercontent.com/talissafloriani/talissafloriani.github.io/main/assets/prof_pic_2021.jpg">
-            <img src="https://raw.githubusercontent.com/talissafloriani/talissafloriani.github.io/main/assets/prof_pic_2021.jpg">
+            <img align="right" src="https://raw.githubusercontent.com/talissafloriani/talissafloriani.github.io/main/assets/prof_pic_2021.jpg"
                   title="Talissa" alt="Talissa"/></a>
         </div>
     </div>
