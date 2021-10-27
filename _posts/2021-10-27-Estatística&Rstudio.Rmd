@@ -55,8 +55,8 @@ Os exemplos usam como base o Rmarkdown, então os códigos serão baseados em um
 
 ### Visualização de banco de dados:
 ```{r  Carregando dados do Excel}
-library(readxl)
-aula7 <- read_excel("~/Mestrado (1-4)/LCE5703-Estatística Experimental-2S-2021/aula7.xlsx")
+#library(readxl)
+aula7 <- read.csv("aula7_v2.csv",header = T, sep = ";",dec = ",")
 View(aula7)
 names(aula7)
 head(aula7,10)
@@ -78,17 +78,16 @@ ggplot(aula7) +
 
 ### Estatísticas Descritivas
 ```{r análise descritiva, echo=TRUE, include=TRUE}
-library(stats)
-n = with(aula7, tapply(Gen, Rend, length))
-soma = with(aula7, tapply(Gen, Rend, sum))
-media = with(aula7, tapply(Gen, Rend, mean))
-variancia = with(aula7, tapply(Gen, Rend, var))
+n = with(aula7, tapply(Rend, Gen, length))
+soma = with(aula7, tapply(Rend, Gen, sum))
+media = with(aula7, tapply(Rend, Gen, mean))
+variancia = with(aula7, tapply(Rend, Gen, var))
 ```
 
 ### Criando uma função para calcular a Amplitude  
 ```{r functions}
 f1 = function(x) max(x) - min(x)
-amplitude = with(aula7, tapply(Gen, Rend, f1))
+amplitude = with(aula7, tapply(Rend, Gen, f1))
 resumo = rbind(n, soma, media, variancia, amplitude)
 row.names(resumo) = c("n","soma","media","variancia","amplitude")
 round(resumo, 2)
@@ -97,9 +96,11 @@ round(resumo, 2)
 ### Análise de Variância (ANOVA)
 
 ```{r calculando a anova}
-library(stats)
-aula7.anova <- aov(aula7$Gen~aula7$Rend)
-summary.aov(aula7.anova)
+library(agricolae)
+model1=aov(Rend~Gen, data = aula7)
+anova(model1)
+(tabela=HSD.test(model1,trt='Gen')) # Teste Tukey (alpha=5%)
+
 ```
 Anexando packages a análise
 
