@@ -19,6 +19,12 @@ See ya! :)
 
 <div class="container">
 <h4><a name="Contact"></a>contact</h4>
+    
+     <div class="span2">
+        <a href="https://raw.githubusercontent.com/talissafloriani/talissafloriani.github.io/main/assets/prof_pic_2021.jpg">
+            <img align="right" src="https://raw.githubusercontent.com/talissafloriani/talissafloriani.github.io/main/assets/prof_pic_2021.jpg"
+                  title="Talissa" alt="Talissa"/></a>
+             </div>
 
     <div class="row-fluid">
         <div class="span5">
@@ -31,13 +37,7 @@ See ya! :)
 
             <div id="hide_email">
             Email: talissafloriani@usp.br
+            <br clear="right"/>
             </div>
         </div>
         
-        <div class="span2">
-        <a href="https://raw.githubusercontent.com/talissafloriani/talissafloriani.github.io/main/assets/prof_pic_2021.jpg">
-            <img align="right" src="https://raw.githubusercontent.com/talissafloriani/talissafloriani.github.io/main/assets/prof_pic_2021.jpg"
-                  title="Talissa" alt="Talissa"/></a>
-        </div>
-    </div>
-</div>
