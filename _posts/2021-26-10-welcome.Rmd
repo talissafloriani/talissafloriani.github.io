@@ -2,7 +2,7 @@
 title: "Welcome"
 author: "Talissa Floriani"
 date: "26/10/2021"
-output: html_document
+layout: post
 ---
 # **Welcome - Tips**
 
