@@ -50,13 +50,12 @@ Quando os testes de pressuposições não são atendidos? *Realizar a transforma
 
 Nesse exercício trabalharei com dados derivados de um delineamento inteiramente casualizado em feijão, o qual será testado a média de produtividade de 10 genótipos em Kg/Ha^-1^.Cada genótipo foi repetido 4 vezes em um sorteio dentro da área experimental.  
 
-
 Os exemplos usam como base o Rmarkdown, então os códigos serão baseados em uma bibilioteca utilizando packages do Rstudio.   
 
 ### Visualização de banco de dados:
 
 ```R
-#library(readxl)
+#Anexando dados de um arquivo csv diretamente do excel
 aula7 <- read.csv("aula7_v2.csv",header = T, sep = ";",dec = ",")
 View(aula7)
 names(aula7)
@@ -65,7 +64,7 @@ head(aula7,10)
 
 ### Análise Exploratória de Dados  
 ```R
-#Carregando biblioteca ggplot
+#Carregando biblioteca ggplot (para os melhores gráficos)
 library(ggplot2)
 ggplot(aula7) + 
   geom_point(mapping = aes(x = Gen, y = Rend), color = "hotpink1")
@@ -73,11 +72,11 @@ ggplot(aula7) +
 
 Gráfico de Caixa
 ```R
+# O boxplot é muito utilizado na estatística experimental e também é anexado via ggplot
 ggplot(aula7) +
   geom_boxplot(mapping = aes(group= Gen, x = Gen, y = Rend), color= "hotpink1")
 
 ```
-
 
 ### Estatísticas Descritivas
 ```R
@@ -99,22 +98,23 @@ round(resumo, 2)
 ### Análise de Variância (ANOVA)
 
 ```R
+#Carregar a biblioteca agricolae que facilita a vida quando trabalhando com a análise de variância
 library(agricolae)
 model1=aov(Rend~Gen, data = aula7)
 anova(model1)
 (tabela=HSD.test(model1,trt='Gen')) # Teste Tukey (alpha=5%)
-
 ```
-Anexando packages a análise
 
 ### Teste de Tukey e Pressuposições
 
 ```R
+#Anexando packages a análise e utilizando a biblioteca ExpDes.pt
 library(ExpDes.pt)
 with(aula7,
      dic (Gen, Rend, quali = TRUE, mcomp = "tukey",
           sigF = 0.05, sigT = 0.05))
 ```
+
 Nesse caso, de acordo com os resultados obtidos com meus dados gerados, a normalidade e a homogeneidade estão de acordo com o modelo, logo, não será necessária a transformação dos dados. Os resultados podem variar de acordo com os dados trabalhados.   
 
 ps: Rmarkdown com essa análise de estatística experimental salve no Blog, para nunca mais esquecer e para que eu possa acessar quando necessário.  
