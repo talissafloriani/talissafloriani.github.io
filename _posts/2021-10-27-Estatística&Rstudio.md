@@ -54,13 +54,15 @@ Nesse exercício estarei utilizando dados derivados de um delineamento inteirame
 Os exemplos usam como base o Rmarkdown, então os códigos serão baseados em uma bibilioteca utilizando o Rstudio.   
 
 ### Visualização de banco de dados:
-```{r  Carregando dados do Excel}
+
+```R
 #library(readxl)
 aula7 <- read.csv("aula7_v2.csv",header = T, sep = ";",dec = ",")
 View(aula7)
 names(aula7)
 head(aula7,10)
 ```
+
 ### Análise Exploratória de Dados  
 ```{r library}
 #Carregando biblioteca ggplot
