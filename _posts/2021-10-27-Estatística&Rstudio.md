@@ -4,7 +4,7 @@ output: html_document
 ---
 
 ## **Homework - Experimental Statistics**  
-*The homework will be write in portuguese*  
+*The homework will be written in portuguese*  
 
 ### Pressuposições do Modelo  
 
@@ -49,7 +49,7 @@ Quando os testes de pressuposições não são atendidos? *Realizar a transforma
 
 *Para dados no delineamento inteiramente casualizado: Verificar as pressuposições do modelo e interpretar os resultados.*  
 
-Nesse exercício trabalharei com dados derivados de um delineamento inteiramente casualizado em feijão, o qual será testado a média de produtividade de 10 genótipos em Kg/Ha^-1^.Cada genótipo foi repetido 4 vezes em um sorteio dentro da área experimental.  
+Nesse exercício trabalharei com dados derivados de um delineamento inteiramente casualizado em feijão, o qual será testado a média de produtividade de 10 genótipos em Kg/Ha.Cada genótipo foi repetido 4 vezes em um sorteio dentro da área experimental.  
 
 Os exemplos usam como base o Rmarkdown, então os códigos serão baseados em uma bibilioteca utilizando packages do Rstudio.   
 
