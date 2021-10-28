@@ -48,10 +48,10 @@ Quando os testes de pressuposições não são atendidos? *Realizar a transforma
 
 *Para dados no delineamento inteiramente casualizado: Verificar as pressuposições do modelo e interpretar os resultados.*  
 
-Nesse exercício estarei utilizando dados derivados de um delineamento inteiramente casualizado em feijão, o qual será testado a média de produtividade de 10 genótipos em Kg/Ha^-1^.Cada genótipo foi repetido 4 vezes em um sorteio dentro da área experimental.  
+Nesse exercício trabalharei com dados derivados de um delineamento inteiramente casualizado em feijão, o qual será testado a média de produtividade de 10 genótipos em Kg/Ha^-1^.Cada genótipo foi repetido 4 vezes em um sorteio dentro da área experimental.  
 
 
-Os exemplos usam como base o Rmarkdown, então os códigos serão baseados em uma bibilioteca utilizando o Rstudio.   
+Os exemplos usam como base o Rmarkdown, então os códigos serão baseados em uma bibilioteca utilizando packages do Rstudio.   
 
 ### Visualização de banco de dados:
 
@@ -64,14 +64,15 @@ head(aula7,10)
 ```
 
 ### Análise Exploratória de Dados  
-```{r library}
+```R
 #Carregando biblioteca ggplot
 library(ggplot2)
 ggplot(aula7) + 
   geom_point(mapping = aes(x = Gen, y = Rend), color = "hotpink1")
 ```
 
-``` {r Gráfico de caixa}
+Gráfico de Caixa
+```R
 ggplot(aula7) +
   geom_boxplot(mapping = aes(group= Gen, x = Gen, y = Rend), color= "hotpink1")
 
@@ -79,7 +80,7 @@ ggplot(aula7) +
 
 
 ### Estatísticas Descritivas
-```{r análise descritiva, echo=TRUE, include=TRUE}
+```R
 n = with(aula7, tapply(Rend, Gen, length))
 soma = with(aula7, tapply(Rend, Gen, sum))
 media = with(aula7, tapply(Rend, Gen, mean))
@@ -87,7 +88,7 @@ variancia = with(aula7, tapply(Rend, Gen, var))
 ```
 
 ### Criando uma função para calcular a Amplitude  
-```{r functions}
+```R
 f1 = function(x) max(x) - min(x)
 amplitude = with(aula7, tapply(Rend, Gen, f1))
 resumo = rbind(n, soma, media, variancia, amplitude)
@@ -97,7 +98,7 @@ round(resumo, 2)
 ```
 ### Análise de Variância (ANOVA)
 
-```{r calculando a anova}
+```R
 library(agricolae)
 model1=aov(Rend~Gen, data = aula7)
 anova(model1)
@@ -106,13 +107,18 @@ anova(model1)
 ```
 Anexando packages a análise
 
-```{r library para funções}
+### Teste de Tukey e Pressuposições
+
+```R
 library(ExpDes.pt)
 with(aula7,
      dic (Gen, Rend, quali = TRUE, mcomp = "tukey",
           sigF = 0.05, sigT = 0.05))
 ```
-Nesse caso, a normalidade e a homogeneidade estão de acordo com o modelo, logo, não será necessária a tranformação dos dados. 
+Nesse caso, de acordo com os resultados obtidos com meus dados gerados, a normalidade e a homogeneidade estão de acordo com o modelo, logo, não será necessária a transformação dos dados. Os resultados podem variar de acordo com os dados trabalhados.   
+
+ps: Rmarkdown com essa análise de estatística experimental salve no Blog, para nunca mais esquecer e para que eu possa acessar quando necessário.  
+xoxo:*
 
 
 
