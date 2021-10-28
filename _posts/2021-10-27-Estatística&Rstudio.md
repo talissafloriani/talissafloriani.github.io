@@ -17,13 +17,14 @@ Nesse caso irei utilizar o modelo de um delineamento inteiramente casualizado, o
 
 $$
 Y_{ij} = \mu + a_i  + \epsilon_{ij}
-$$
+$$  
+
 Sendo:  
 
-$Y_{ij}$: O valor observado no i-ésimo nível do fator A, na j-ésima repetição;  
-$\mu$: Constante inerente a todas as observações;  
-$a_i$: O efeito do i-ésimo nível do fator A;  
-$\epsilon_{ij}$: O erro experimental.  
+$$Y_{ij}$$: O valor observado no i-ésimo nível do fator A, na j-ésima repetição;  
+$$\mu$$: Constante inerente a todas as observações;  
+$$a_i$$: O efeito do i-ésimo nível do fator A;  
+$$\epsilon_{ij}$$: O erro experimental.  
 
 **Pressuposições:**  
 
@@ -62,7 +63,8 @@ names(aula7)
 head(aula7,10)
 ```
 
-### Análise Exploratória de Dados  
+### Análise Exploratória de Dados 
+#### Gráficos pelo ggplot
 ```R
 #Carregando biblioteca ggplot (para os melhores gráficos)
 library(ggplot2)
@@ -70,7 +72,7 @@ ggplot(aula7) +
   geom_point(mapping = aes(x = Gen, y = Rend), color = "hotpink1")
 ```
 
-Gráfico de Caixa
+#### Gráfico de Caixa
 ```R
 # O boxplot é muito utilizado na estatística experimental e também é anexado via ggplot
 ggplot(aula7) +
@@ -117,7 +119,7 @@ with(aula7,
 
 Nesse caso, de acordo com os resultados obtidos com meus dados gerados, a normalidade e a homogeneidade estão de acordo com o modelo, logo, não será necessária a transformação dos dados. Os resultados podem variar de acordo com os dados trabalhados.   
 
-ps: Rmarkdown com essa análise de estatística experimental salve no Blog, para nunca mais esquecer e para que eu possa acessar quando necessário.  
+ps: Rmarkdown com essa análise de estatística experimental salva no Blog, para nunca mais esquecer e para que eu (e você que está lendo) possa acessar quando necessário.  
 xoxo:*
 
 
