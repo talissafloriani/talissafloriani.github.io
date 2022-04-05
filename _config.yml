@@ -18,7 +18,7 @@ mathjax: true
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "About", file: "about.md"}
-  - {title: "CV", file: "talissa.pdf"}
+  - {title: "CV", file: "cv.md"}
   - {title: "Projects", file: "projects.md"}
   - {title: "Blog", file: "blog.md"}
   - {title: "Tips", file: "tips.md"}
