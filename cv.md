@@ -126,7 +126,7 @@ PI: Professor Dr. Alexander E. Lipka
 (2018) **Floriani, T. O.**; Wille, C. L.; Almeida, E. L.; Cerutti, P. H.; Melo, R. C.; Correa, S. C.; Coimbra,  J.  L.  M.;  Guidolin,  A.  F. Importance  of  experimental  error  decomposition  in  the  discrimination  of cultivars. 2018, Lages/SC. Anais do 28º Seminário de iniciação Científica.    
 (2019)  **Floriani, T. O.**; Nardello, F. A. C.; Rodrigues, A. R.; Darius, D. A.; Melo, R. C.; Souza, R. S.; Adams, C. R.; Cerutti, P. H.; Dos Santos, M.; Guidolin, A. F. Genetic divergence between common bean genotypes through multivariate techniques. 2019, Lages/SC. Anais do 29º Seminário de iniciação científica.   
 (2020) Undergraduate Research Week at the University of California Davis (UCD) **Floriani,  T.  O**. Bean  Breeding Programs at the Gepts Lab. 
-<a href="https://www.youtube.com/watch?v=DTyLAKkJQRA">University of California Davis -2020 Undergraduate Research Week -YouTube> 
+<a href="https://www.youtube.com/watch?v=DTyLAKkJQRA"> University of California Davis -2020 Undergraduate Research Week YouTube</a>   
 (2023) Science and Spirits 5 min lightning talk - Looking for Rare Variants in Sorghum  
 (2024) Oral and poster presentation at PAG (Plant and Animal Genome Conference) talk at the Workshop Breeding for Changing Weather Conditions - MulX-Trait GxE G WAS: Looking for Rare Variants in Sorghum. Talissa Floriani, Samuel B Fernandes, Mohammed El-Kebir, Andrew Leakey, and Alexander E. Lipka  
 (2024) University of Bonn - INRES - Workshop on Statistical Genomics (organizer and speaker)  
@@ -141,6 +141,6 @@ PI: Professor Dr. Alexander E. Lipka
 (2023-Present) J.C. Hackleman Fellowship/Illinois Crop Improvement Association Graduate Fellowship   
 (2025) Advances in Genome Biology and Technology (AGBT) Next Generation Leadership Award – Orlando, Florida  
 
-## **Extension and Scien5fic Events**
-(2022 – 2023) GVENCK—Scientific Committee: The Genetics and Plant Breeding Group “Prof. Roland Vencovsky” (GVENCK) by Genetics and Plant Breeding graduate students at Luiz de Queiroz College of Agriculture (ESALQ/USP), under the coordination of Professor Dr. José Baldin Pinheiro. 
-(2024 –Present) Plant Sciences Symposium: Member of the Communication and planning committees for UIUC’s 2024 Corteva Agriscience Plant Sciences Symposium. Also responsible for external outreach.
+## **Extension and Scientific Events**
+(2022 – 2023) GVENCK—Scientific Committee: The Genetics and Plant Breeding Group “Prof. Roland Vencovsky” (GVENCK) by Genetics and Plant Breeding graduate students at Luiz de Queiroz College of Agriculture (ESALQ/USP), under the coordination of Professor Dr. José Baldin Pinheiro.    
+(2024 –Present) Plant Sciences Symposium: Member of the Communication and planning committees for UIUC’s 2024 Corteva Agriscience Plant Sciences Symposium. Also responsible for external outreach.  
