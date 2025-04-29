@@ -24,9 +24,9 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Tips", file: "tips.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:talissafloriani@usp.br"}
+  - {title: Mail, icon: envelope, url: "mailto:talissa2@illinois.edu"}
   - {title: Github, icon: github, url: "https://github.com/talissafloriani"}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/talissafloriani"}
+  - {title: Twitter, icon: Linkedin, url: "https://www.linkedin.com/in/talissa-floriani-714971101/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
