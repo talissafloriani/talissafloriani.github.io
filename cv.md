@@ -102,45 +102,45 @@ PI: Professor Dr. Alexander E. Lipka
 
 ### *Peer-reviewed journals*
 
-**(2025) Floriani, T. O.**; Gama, H, C.; Moreno, B.M.; Costa, G. A. L.; Giordani, W.; Chiorato, A. F.; Bibiano, L.; Parker, T.; Camargo, L. E. A.; Vieira, M. L. C.; Garcia, A. A. F. Developing a model to implement marker assisted selection for root-knot nematode resistance in common bean. G3 Genes, Genomes, Genetics. *In press.*  <a href="https://www.biorxiv.org/content/10.1101/2025.01.31.635933v1.abstract">DOI: 10.1101/2025.01.31.635933</a>
+**(2025) Floriani, T. O.**; Gama, H, C.; Moreno, B.M.; Costa, G. A. L.; Giordani, W.; Chiorato, A. F.; Bibiano, L.; Parker, T.; Camargo, L. E. A.; Vieira, M. L. C.; Garcia, A. A. F. Developing a model to implement marker assisted selection for root-knot nematode resistance in common bean. G3 Genes, Genomes, Genetics. *In press.*  <a href="https://www.biorxiv.org/content/10.1101/2025.01.31.635933v1.abstract">DOI: 10.1101/2025.01.31.635933</a>  
 
+**(2022)** Parker, T.; Cetz,  J; Sousa, L.L.;  Kuzaya,  S.; Sassoum Lo, **Floriani,  T. O.**; Njau, S.;  Arunga,  E.; Duitama, J.; Jernstedt, J.; Myers, J.; Llaca, V.; Herrera-Estrella, A.; Gepts, P. Loss of pod strings in common bean is associated with gene duplication, retrotransposon insertion, and overexpression of PvInd. New Phytologist. <a href="https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.18319">DOI: 10.1111/nph.18319</a>  
 
-(2022) Parker, T.; Cetz,  J; Sousa, L.L.;  Kuzaya,  S.; Sassoum Lo, **Floriani,  T. O.**; Njau, S.;  Arunga,  E.; Duitama, J.; Jernstedt, J.; Myers, J.; Llaca, V.; Herrera-Estrella, A.; Gepts, P. Loss of pod strings in common bean is associated with gene duplication, retrotransposon insertion, and overexpression of PvInd. New Phytologist. <a href="https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.18319">DOI: 10.1111/nph.18319</a>
+**(2021)** Parker,  T.;  Sousa,  L.  L.; **Floriani,  T.  O.**;  Palkovic,  A.;  Gepts,  P.  Towards  the  introgression  of  Pvpdh1  for increased resistance to pod shattering in common bean. Theoretical and Applied Genetics. <a href="https://link.springer.com/article/10.1007/s00122-020-03698-7">DOI: 10.1007/s00122-020-03698-7</a>  
 
-(2021) Parker,  T.;  Sousa,  L.  L.; **Floriani,  T.  O.**;  Palkovic,  A.;  Gepts,  P.  Towards  the  introgression  of  Pvpdh1  for increased resistance to pod shattering in common bean. Theoretical and Applied Genetics. <a href="https://link.springer.com/article/10.1007/s00122-020-03698-7">DOI: 10.1007/s00122-020-03698-7> 
 ### *Agricultural science*
 
-(2019) Silva,  J.  A;  Barrichello,  E.  C.;  Oliveira,  I.  A.;  Cerutti,  P.  H.;  Dos  Santos,  M.; **Floriani,  T.  O.**  Root  system phenotyping for selection of agronomically superior plants. Revista Agronomia Brasileira, v.3, p. 1-5.   
+**(2019)** Silva,  J.  A;  Barrichello,  E.  C.;  Oliveira,  I.  A.;  Cerutti,  P.  H.;  Dos  Santos,  M.; **Floriani,  T.  O.**  Root  system phenotyping for selection of agronomically superior plants. Revista Agronomia Brasileira, v.3, p. 1-5.   
 
-(2019) Cerutti, P.H; Dos Santos, M.; Gemeli, M. S.; Silva, J. A.; Almeida, É. L.; Oliveira, I. A.; Barrichello, E. C.; **Floriani,  T. O.** Recurrent selection as a tool in the improvement of autogamous  plants. Revista Agronomia Brasileira, v. 3, p.1-4.
+**(2019)** Cerutti, P.H; Dos Santos, M.; Gemeli, M. S.; Silva, J. A.; Almeida, É. L.; Oliveira, I. A.; Barrichello, E. C.; **Floriani,  T. O.** Recurrent selection as a tool in the improvement of autogamous  plants. Revista Agronomia Brasileira, v. 3, p.1-4.
 
 ### *Complete works published in conferences*  
 
-(2019) **Floriani, T. O.**; Cerutti, P. H.; Santos, M.; Screening for the root angle character in common bean genotypes. In: V Simpósio Internacional Ciência, Saúde e Território, 2019, In: V Simpósio Internacional Ciência, Saúde e  Território,  2019,  Lages,  SC. Anais  do  V  Simpósio  Internacional  Ciência,Saúde  e  Território.  Lages,  SC: UNIPLAC.  
+**(2019) Floriani, T. O.**; Cerutti, P. H.; Santos, M.; Screening for the root angle character in common bean genotypes. In: V Simpósio Internacional Ciência, Saúde e Território, 2019, In: V Simpósio Internacional Ciência, Saúde e  Território,  2019,  Lages,  SC. Anais  do  V  Simpósio  Internacional  Ciência,Saúde  e  Território.  Lages,  SC: UNIPLAC.  
 
-(2019) Santos, M.; Cerutti, P. H.; **Floriani, T. O.**; Barichello, E. C.; SILVA, J. A.; Trevisani, N. Creation of genetic variability in physalis  using methylmethanesulfonate (mms). In: V Simpósio Internacional Ciência, Saúde e Território,  2019,  Lages,  SC. Anais  do  V  Simpósio  Internacional  Ciência,  Saúde  e  Território.  Lages,  SC: UNIPLAC.  
+**(2019)** Santos, M.; Cerutti, P. H.; **Floriani, T. O.**; Barichello, E. C.; SILVA, J. A.; Trevisani, N. Creation of genetic variability in physalis  using methylmethanesulfonate (mms). In: V Simpósio Internacional Ciência, Saúde e Território,  2019,  Lages,  SC. Anais  do  V  Simpósio  Internacional  Ciência,  Saúde  e  Território.  Lages,  SC: UNIPLAC.  
  
 ## **Presentations and Invited talks**  
 
-(2016) **Floriani, T. O.**; Coimbra, J. L. M.; Cerutti, P. H.; Melo, R. C.; Cardoso, T. R.; Guidolin, A.F. Root distribution associated with yield components in common bean (Phaseolus vulgaris L.)., 2016, Lages -SC. Anais do 26º Seminário de iniciação Científica.   
-(2018) **Floriani, T. O.**; Wille, C. L.; Almeida, E. L.; Cerutti, P. H.; Melo, R. C.; Correa, S. C.; Coimbra,  J.  L.  M.;  Guidolin,  A.  F. Importance  of  experimental  error  decomposition  in  the  discrimination  of cultivars. 2018, Lages/SC. Anais do 28º Seminário de iniciação Científica.    
-(2019)  **Floriani, T. O.**; Nardello, F. A. C.; Rodrigues, A. R.; Darius, D. A.; Melo, R. C.; Souza, R. S.; Adams, C. R.; Cerutti, P. H.; Dos Santos, M.; Guidolin, A. F. Genetic divergence between common bean genotypes through multivariate techniques. 2019, Lages/SC. Anais do 29º Seminário de iniciação científica.   
-(2020) Undergraduate Research Week at the University of California Davis (UCD) **Floriani,  T.  O**. Bean  Breeding Programs at the Gepts Lab. 
+**(2016) Floriani, T. O.**; Coimbra, J. L. M.; Cerutti, P. H.; Melo, R. C.; Cardoso, T. R.; Guidolin, A.F. Root distribution associated with yield components in common bean (Phaseolus vulgaris L.)., 2016, Lages -SC. Anais do 26º Seminário de iniciação Científica.   
+**(2018) Floriani, T. O.**; Wille, C. L.; Almeida, E. L.; Cerutti, P. H.; Melo, R. C.; Correa, S. C.; Coimbra,  J.  L.  M.;  Guidolin,  A.  F. Importance  of  experimental  error  decomposition  in  the  discrimination  of cultivars. 2018, Lages/SC. Anais do 28º Seminário de iniciação Científica.    
+**(2019) Floriani, T. O.**; Nardello, F. A. C.; Rodrigues, A. R.; Darius, D. A.; Melo, R. C.; Souza, R. S.; Adams, C. R.; Cerutti, P. H.; Dos Santos, M.; Guidolin, A. F. Genetic divergence between common bean genotypes through multivariate techniques. 2019, Lages/SC. Anais do 29º Seminário de iniciação científica.   
+**(2020)** Undergraduate Research Week at the University of California Davis (UCD) **Floriani,  T.  O**. Bean  Breeding Programs at the Gepts Lab. 
 <a href="https://www.youtube.com/watch?v=DTyLAKkJQRA"> University of California Davis -2020 Undergraduate Research Week YouTube</a>   
-(2023) Science and Spirits 5 min lightning talk - Looking for Rare Variants in Sorghum  
-(2024) Oral and poster presentation at PAG (Plant and Animal Genome Conference) talk at the Workshop Breeding for Changing Weather Conditions - MulX-Trait GxE G WAS: Looking for Rare Variants in Sorghum. Talissa Floriani, Samuel B Fernandes, Mohammed El-Kebir, Andrew Leakey, and Alexander E. Lipka  
-(2024) University of Bonn - INRES - Workshop on Statistical Genomics (organizer and speaker)  
-(2025) Discussion leader at Gordon Research Seminars (GRS), Lucca, Barga, Italy.   
-(2025) Quantitative Genetics and Genomics Gordon Research Conference, Lucca, Barga, Italy. “Enhancing genotype-phenotype associations and unveiling rare variants with machine learning”, Floriani T, El-Kebir M, Fernandes SB, Leakey A, and Lipka AE. February 16-20.  
+**(2023)** Science and Spirits 5 min lightning talk - Looking for Rare Variants in Sorghum  
+**(2024)** Oral and poster presentation at PAG (Plant and Animal Genome Conference) talk at the Workshop Breeding for Changing Weather Conditions - MulX-Trait GxE G WAS: Looking for Rare Variants in Sorghum. Talissa Floriani, Samuel B Fernandes, Mohammed El-Kebir, Andrew Leakey, and Alexander E. Lipka  
+**(2024)** University of Bonn - INRES - Workshop on Statistical Genomics (organizer and speaker)  
+**(2025)** Discussion leader at Gordon Research Seminars (GRS), Lucca, Barga, Italy.   
+**(2025)** Quantitative Genetics and Genomics Gordon Research Conference, Lucca, Barga, Italy. “Enhancing genotype-phenotype associations and unveiling rare variants with machine learning”, Floriani T, El-Kebir M, Fernandes SB, Leakey A, and Lipka AE. February 16-20.  
 
 ## **Awards and Honors**
 
-(2018) Scientific Merit: Oral Presentation earned a Scientific Merit Certificate and was awarded 2nd place in the Plant Production session at the 28th Annual Undergraduate Research Workshop at UDESC in Lages.  
-(2021) Scholarship from Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq, grant nº 131678/2021-3)  
-(2022-2023) Scholarship from São Paulo Research Foundation (FAPESP, grant nº 22/04061-3)  
-(2023-Present) J.C. Hackleman Fellowship/Illinois Crop Improvement Association Graduate Fellowship   
-(2025) Advances in Genome Biology and Technology (AGBT) Next Generation Leadership Award – Orlando, Florida  
+**(2018)** Scientific Merit: Oral Presentation earned a Scientific Merit Certificate and was awarded 2nd place in the Plant Production session at the 28th Annual Undergraduate Research Workshop at UDESC in Lages.  
+**(2021)** Scholarship from Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq, grant nº 131678/2021-3)  
+**(2022-2023)** Scholarship from São Paulo Research Foundation (FAPESP, grant nº 22/04061-3)  
+**(2023-Present)** J.C. Hackleman Fellowship/Illinois Crop Improvement Association Graduate Fellowship   
+**(2025)** Advances in Genome Biology and Technology (AGBT) Next Generation Leadership Award – Orlando, Florida  
 
 ## **Extension and Scientific Events**
-(2022 – 2023) GVENCK—Scientific Committee: The Genetics and Plant Breeding Group “Prof. Roland Vencovsky” (GVENCK) by Genetics and Plant Breeding graduate students at Luiz de Queiroz College of Agriculture (ESALQ/USP), under the coordination of Professor Dr. José Baldin Pinheiro.    
-(2024 –Present) Plant Sciences Symposium: Member of the Communication and planning committees for UIUC’s 2024 Corteva Agriscience Plant Sciences Symposium. Also responsible for external outreach.  
+**(2022 – 2023)** GVENCK—Scientific Committee: The Genetics and Plant Breeding Group “Prof. Roland Vencovsky” (GVENCK) by Genetics and Plant Breeding graduate students at Luiz de Queiroz College of Agriculture (ESALQ/USP), under the coordination of Professor Dr. José Baldin Pinheiro.    
+**(2024 –Present)** Plant Sciences Symposium: Member of the Communication and planning committees for UIUC’s 2024 Corteva Agriscience Plant Sciences Symposium. Also responsible for external outreach.  
