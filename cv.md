@@ -1,59 +1,57 @@
 ---
 title: "Curriculum vitae - CV"
 author: "Talissa Floriani"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    theme: flatly
+    number_sections: true
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Talissa Oliveira Floriani Z Souza - CV</title>
-  <style>
-    body {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    .header {
-      text-align: center;
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 15px;
-      margin-bottom: 30px;
-    }
-    .name {
-      font-size: 32px;
-      font-weight: bold;
-      color: #2c3e50;
-    }
-    .title {
-      font-size: 18px;
-      margin-top: 10px;
-      color: #555;
-    }
-    .contact {
-      font-size: 14px;
-      margin-top: 10px;
-      color: #555;
-    }
-  </style>
-</head>
-<body>
 
-  <div class="header">
-    <div class="name">Talissa Oliveira Floriani Z Souza</div>
-    <div class="title">
-      Ph.D. Student – Graduate Research Assistant in Crop Sciences<br>
-      Teaching Assistant at CPSC-440<br>
-      University of Illinois at Urbana-Champaign<br>
-      College of Agricultural, Consumer, and Environmental Sciences<br>
-      Department of Crop Sciences
-    </div>
-    <div class="contact">
-      W-201A Turner Hall | Urbana, IL 61801<br>
-    <a href="mailto:talissa2@illinois.edu">talissa2@illinois.edu</a>
-    </div>
+<style>
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  .header {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+  }
+  .name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  .title {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #555;
+  }
+  .contact {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #555;
+  }
+</style>
+
+<div class="header">
+  <div class="name">Talissa Oliveira Floriani Z Souza</div>
+  <div class="title">
+    Ph.D. Student – Graduate Research Assistant in Crop Sciences<br>
+    Teaching Assistant at CPSC-440<br>
+    University of Illinois at Urbana-Champaign<br>
+    College of Agricultural, Consumer, and Environmental Sciences<br>
+    Department of Crop Sciences
   </div>
+  <div class="contact">
+    W-201A Turner Hall | Urbana, IL 61801<br>
+    +1 (608) 207-7335 – <a href="mailto:talissa2@illinois.edu">talissa2@illinois.edu</a>
+  </div>
+</div>
 
 
 # **Education**
@@ -104,13 +102,12 @@ PI: Professor Dr. Alexander E. Lipka
 
 ### *Peer-reviewed journals*
 
-**(2025) Floriani, T. O.**; Gama, H, C.; Moreno, B.M.; Costa, G. A. L.; Giordani, W.; Chiorato, A. F.; Bibiano, L.; Parker, T.; Camargo, L. E. A.; Vieira, M. L. C.; Garcia, A. A. F. Developing a model to implement marker assisted selection for root-knot nematode resistance in common bean. G3 Genes|Genomes|Genetics. *In press.*  <a href="https://www.biorxiv.org/content/10.1101/2025.01.31.635933v1.abstract">DOI: 10.1101/2025.01.31.635933</a>
+**(2025) Floriani, T. O.**; Gama, H, C.; Moreno, B.M.; Costa, G. A. L.; Giordani, W.; Chiorato, A. F.; Bibiano, L.; Parker, T.; Camargo, L. E. A.; Vieira, M. L. C.; Garcia, A. A. F. Developing a model to implement marker assisted selection for root-knot nematode resistance in common bean. G3 Genes, Genomes, Genetics. *In press.*  <a href="https://www.biorxiv.org/content/10.1101/2025.01.31.635933v1.abstract">DOI: 10.1101/2025.01.31.635933</a>
 
 
-(2022) Parker, T.; Cetz,  J; Sousa, L.L.;  Kuzaya,  S.; Sassoum Lo, **Floriani,  T. O.**; Njau, S.;  Arunga,  E.; Duitama, J.; Jernstedt, J.; Myers, J.; Llaca, V.; Herrera-Estrella, A.; Gepts, P. Loss of pod strings in common bean is associated with gene duplication, retrotransposon insertion, and overexpression of PvInd. New Phytologist. DOI: 10.1111/nph.18319
+(2022) Parker, T.; Cetz,  J; Sousa, L.L.;  Kuzaya,  S.; Sassoum Lo, **Floriani,  T. O.**; Njau, S.;  Arunga,  E.; Duitama, J.; Jernstedt, J.; Myers, J.; Llaca, V.; Herrera-Estrella, A.; Gepts, P. Loss of pod strings in common bean is associated with gene duplication, retrotransposon insertion, and overexpression of PvInd. New Phytologist. <a href="https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.18319">DOI: 10.1111/nph.18319</a>
 
-(2021) Parker,  T.;  Sousa,  L.  L.; **Floriani,  T.  O.**;  Palkovic,  A.;  Gepts,  P.  Towards  the  introgression  of  Pvpdh1  for increased resistance to pod shattering in common bean. Theoretical and Applied Genetics. DOI: 10.1007/s00122-020-03698-7
-
+(2021) Parker,  T.;  Sousa,  L.  L.; **Floriani,  T.  O.**;  Palkovic,  A.;  Gepts,  P.  Towards  the  introgression  of  Pvpdh1  for increased resistance to pod shattering in common bean. Theoretical and Applied Genetics. <a href="https://link.springer.com/article/10.1007/s00122-020-03698-7">DOI: 10.1007/s00122-020-03698-7> 
 ### *Agricultural science*
 
 (2019) Silva,  J.  A;  Barrichello,  E.  C.;  Oliveira,  I.  A.;  Cerutti,  P.  H.;  Dos  Santos,  M.; **Floriani,  T.  O.**  Root  system phenotyping for selection of agronomically superior plants. Revista Agronomia Brasileira, v.3, p. 1-5.   
@@ -143,6 +140,3 @@ PI: Professor Dr. Alexander E. Lipka
 (2023-Present) J.C. Hackleman Fellowship/Illinois Crop Improvement Association Graduate Fellowship   
 (2025) Advances in Genome Biology and Technology (AGBT) Next Generation Leadership Award – Orlando, Florida  
 
-
-</body>
-</html>
