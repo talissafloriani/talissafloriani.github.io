@@ -5,11 +5,11 @@ description: Hello there!    My name is Talissa Floriani, I'm an agronomist pass
 ---
 Hello there!    
 
-My name is Talissa Floriani, I'm an agronomist passionate for plants and genes. I got my degree in Agronomy from Santa Catarina State University (UDESC) and my senior year from University of California Davis (UCD). I'm currently a master's student in Genetics and Plant Breeding at the University of Sao Paulo (USP).  
+My name is Talissa Floriani; I'm a PhD student passionate about plants and genes. I earned my bachelor's degree in Agronomy from Santa Catarina State University (UDESC) and completed my senior year at the University of California, Davis (UCD), in the Gepts Lab. I defended my Master's degree in Genetics and Plant Breeding from the University of São Paulo's "Luiz de Queiroz" College of Agriculture, with a FAPESP thematic project on common beans at the Statistical Genetics Laboratory. Currently, I'm a Graduate Research Assistant at the University of Illinois at Urbana-Champaign, Department of Crop Sciences, with Professor Alex Lipka as my Principal Investigator. My work is related to genetics and plant breeding, with a focus on statistical genomics and machine learning analysis in sorghum.
 
-I'm funny, new to data analysis by Rstudio, I speak Portuguese as well as English and a little bit of Spanish. I'm a super fan of rock, pizza and a coffee addict. Here we are going to discuss about science, hobbies, tips, codes and other things.    
+During my free time, I enjoy outdoor activities, such as running or rowing, and indoors, I love to paint and create new things. I'm a super fan of rock, pizza, and coffee. Here, we will discuss science, hobbies, tips, codes, and other topics.    
 
-See ya! :)
+Enjoy! :)
 
 
 
