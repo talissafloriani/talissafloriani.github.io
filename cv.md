@@ -66,7 +66,7 @@ Undergraduate  thesis: "Improvement  of  cultivated  plants  at the  University 
 Master of Science in Genetics and Plant Breeding  
 Statistical Genetics Laboratory  
 
-### *Master of Business (MBA) in Data Science and Analytics (2022- 2024)*
+### *Master of Business and Administration (MBA) in Data Science and Analytics (2022- 2024)*
 "Luiz de Queiroz" College of Agriculture - University of São Paulo
 
 ### *Ph.D. student in Crop Sciences (May 2023 - Present)*
