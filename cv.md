@@ -1,8 +1,59 @@
 ---
 title: "Curriculum vitae - CV"
-author: "Talissa de Oliveira Floriani"
+author: "Talissa Floriani"
 output: html_document
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Talissa Oliveira Floriani Z Souza - CV</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .header {
+      text-align: center;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 15px;
+      margin-bottom: 30px;
+    }
+    .name {
+      font-size: 32px;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    .title {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #555;
+    }
+    .contact {
+      font-size: 14px;
+      margin-top: 10px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="name">Talissa Oliveira Floriani Z Souza</div>
+    <div class="title">
+      Ph.D. Student – Graduate Research Assistant in Crop Sciences<br>
+      Teaching Assistant at CPSC-440<br>
+      University of Illinois at Urbana-Champaign<br>
+      College of Agricultural, Consumer, and Environmental Sciences<br>
+      Department of Crop Sciences
+    </div>
+    <div class="contact">
+      W-201A Turner Hall | Urbana, IL 61801<br>
+    <a href="mailto:talissa2@illinois.edu">talissa2@illinois.edu</a>
+    </div>
+  </div>
 
 
 # **Education**
@@ -68,26 +119,30 @@ PI: Professor Dr. Alexander E. Lipka
 
 ### *Complete works published in conferences*  
 
-(2019) **Floriani, T. O.**; Cerutti, P. H.; Santos, M.; Screening for the root angle character in common bean genotypes. In: V Simpósio Internacional Ciência, Saúde e Território, 2019, In: V Simpósio Internacional Ciência, Saúde e  Território,  2019,  Lages,  SC. Anais  do  V  Simpósio  Internacional  Ciência,Saúde  e  Território.  Lages,  SC: UNIPLAC.
+(2019) **Floriani, T. O.**; Cerutti, P. H.; Santos, M.; Screening for the root angle character in common bean genotypes. In: V Simpósio Internacional Ciência, Saúde e Território, 2019, In: V Simpósio Internacional Ciência, Saúde e  Território,  2019,  Lages,  SC. Anais  do  V  Simpósio  Internacional  Ciência,Saúde  e  Território.  Lages,  SC: UNIPLAC.  
 
-(2019) Santos, M.; Cerutti, P. H.; **Floriani, T. O.**; Barichello, E. C.; SILVA, J. A.; Trevisani, N. Creation of genetic variability in physalis  using methylmethanesulfonate (mms). In: V Simpósio Internacional Ciência, Saúde e Território,  2019,  Lages,  SC. Anais  do  V  Simpósio  Internacional  Ciência,  Saúde  e  Território.  Lages,  SC: UNIPLAC.
-
+(2019) Santos, M.; Cerutti, P. H.; **Floriani, T. O.**; Barichello, E. C.; SILVA, J. A.; Trevisani, N. Creation of genetic variability in physalis  using methylmethanesulfonate (mms). In: V Simpósio Internacional Ciência, Saúde e Território,  2019,  Lages,  SC. Anais  do  V  Simpósio  Internacional  Ciência,  Saúde  e  Território.  Lages,  SC: UNIPLAC.  
+ 
 ## **Presentations and Invited talks**  
 
-(2016) **Floriani, T. O.**; Coimbra, J. L. M.; Cerutti, P. H.; Melo, R. C.; Cardoso, T. R.; Guidolin, A.F. Root distribution associated with yield components in common bean (Phaseolus vulgaris L.)., 2016, Lages -SC. Anais do 26º Seminário de iniciação Científica. 
-(2018) **Floriani, T. O.**; Wille, C. L.; Almeida, E. L.; Cerutti, P. H.; Melo, R. C.; Correa, S. C.; Coimbra,  J.  L.  M.;  Guidolin,  A.  F. Importance  of  experimental  error  decomposition  in  the  discrimination  of cultivars. 2018, Lages/SC. Anais do 28º Seminário de iniciação Científica.  
-(2019)  **Floriani, T. O.**; Nardello, F. A. C.; Rodrigues, A. R.; Darius, D. A.; Melo, R. C.; Souza, R. S.; Adams, C. R.; Cerutti, P. H.; Dos Santos, M.; Guidolin, A. F. Genetic divergence between common bean genotypes through multivariate techniques. 2019, Lages/SC. Anais do 29º Seminário de iniciação científica. 
-(2020) Undergraduate Research Week at the University of California Davis (UCD) **Floriani,  T.  O**. Bean  Breeding Programs at the Gepts Lab.[University of California Davis -2020 Undergraduate Research Week -YouTube]  
-(2023) Science and Spirits 5 min lightning talk - Looking for Rare Variants in Sorghum
-(2024) Oral and poster presentation at PAG (Plant and Animal Genome Conference) talk at the Workshop Breeding for Changing Weather Conditions - MulX-Trait GxE G WAS: Looking for Rare Variants in Sorghum. Talissa Floriani, Samuel B Fernandes, Mohammed El-Kebir, Andrew Leakey, and Alexander E. Lipka
-(2024) University of Bonn - INRES - Workshop on Statistical Genomics (organizer and speaker)
-(2025) Discussion leader at Gordon Research Seminars (GRS), Lucca, Barga, Italy. 
-(2025) Quantitative Genetics and Genomics Gordon Research Conference, Lucca, Barga, Italy. “Enhancing genotype-phenotype associations and unveiling rare variants with machine learning”, Floriani T, El-Kebir M, Fernandes SB, Leakey A, and Lipka AE. February 16-20.
+(2016) **Floriani, T. O.**; Coimbra, J. L. M.; Cerutti, P. H.; Melo, R. C.; Cardoso, T. R.; Guidolin, A.F. Root distribution associated with yield components in common bean (Phaseolus vulgaris L.)., 2016, Lages -SC. Anais do 26º Seminário de iniciação Científica.   
+(2018) **Floriani, T. O.**; Wille, C. L.; Almeida, E. L.; Cerutti, P. H.; Melo, R. C.; Correa, S. C.; Coimbra,  J.  L.  M.;  Guidolin,  A.  F. Importance  of  experimental  error  decomposition  in  the  discrimination  of cultivars. 2018, Lages/SC. Anais do 28º Seminário de iniciação Científica.    
+(2019)  **Floriani, T. O.**; Nardello, F. A. C.; Rodrigues, A. R.; Darius, D. A.; Melo, R. C.; Souza, R. S.; Adams, C. R.; Cerutti, P. H.; Dos Santos, M.; Guidolin, A. F. Genetic divergence between common bean genotypes through multivariate techniques. 2019, Lages/SC. Anais do 29º Seminário de iniciação científica.   
+(2020) Undergraduate Research Week at the University of California Davis (UCD) **Floriani,  T.  O**. Bean  Breeding Programs at the Gepts Lab.[University of California Davis -2020 Undergraduate Research Week -YouTube]    
+(2023) Science and Spirits 5 min lightning talk - Looking for Rare Variants in Sorghum  
+(2024) Oral and poster presentation at PAG (Plant and Animal Genome Conference) talk at the Workshop Breeding for Changing Weather Conditions - MulX-Trait GxE G WAS: Looking for Rare Variants in Sorghum. Talissa Floriani, Samuel B Fernandes, Mohammed El-Kebir, Andrew Leakey, and Alexander E. Lipka  
+(2024) University of Bonn - INRES - Workshop on Statistical Genomics (organizer and speaker)  
+(2025) Discussion leader at Gordon Research Seminars (GRS), Lucca, Barga, Italy.   
+(2025) Quantitative Genetics and Genomics Gordon Research Conference, Lucca, Barga, Italy. “Enhancing genotype-phenotype associations and unveiling rare variants with machine learning”, Floriani T, El-Kebir M, Fernandes SB, Leakey A, and Lipka AE. February 16-20.  
 
 ## **Awards and Honors**
 
-(2018) Scientific Merit: Oral Presentation earned a Scientific Merit Certificate and was awarded 2nd place in the Plant Production session at the 28th Annual Undergraduate Research Workshop at UDESC in Lages.
-(2021) Scholarship from Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq, grant nº 131678/2021-3)
-(2022-2023) Scholarship from São Paulo Research Foundation (FAPESP, grant nº 22/04061-3)
-(2023-Present) J.C. Hackleman Fellowship/Illinois Crop Improvement Association Graduate Fellowship 
-(2025) Advances in Genome Biology and Technology (AGBT) Next Generation Leadership Award – Orlando, Florida
+(2018) Scientific Merit: Oral Presentation earned a Scientific Merit Certificate and was awarded 2nd place in the Plant Production session at the 28th Annual Undergraduate Research Workshop at UDESC in Lages.  
+(2021) Scholarship from Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq, grant nº 131678/2021-3)  
+(2022-2023) Scholarship from São Paulo Research Foundation (FAPESP, grant nº 22/04061-3)  
+(2023-Present) J.C. Hackleman Fellowship/Illinois Crop Improvement Association Graduate Fellowship   
+(2025) Advances in Genome Biology and Technology (AGBT) Next Generation Leadership Award – Orlando, Florida  
+
+
+</body>
+</html>
