@@ -53,7 +53,8 @@ PI: Professor Dr. Alexander E. Lipka
 
 ### *Peer-reviewed journals*
 
-**(2025) Floriani, T. O.**; Gama, H, C.; Moreno, B.M.; Costa, G. A. L.; Giordani, W.; Chiorato, A. F.; Bibiano, L.; Parker, T.; Camargo, L. E. A.; Vieira, M. L. C.; Garcia, A. A. F. Developing a model to implement marker assisted selection for root-knot nematode resistance in common bean. G3 Genes|Genomes|Genetics. *In press.* DOI: 10.1101/2025.01.31.635933
+**(2025) Floriani, T. O.**; Gama, H, C.; Moreno, B.M.; Costa, G. A. L.; Giordani, W.; Chiorato, A. F.; Bibiano, L.; Parker, T.; Camargo, L. E. A.; Vieira, M. L. C.; Garcia, A. A. F. Developing a model to implement marker assisted selection for root-knot nematode resistance in common bean. G3 Genes|Genomes|Genetics. *In press.*  <a href="https://www.biorxiv.org/content/10.1101/2025.01.31.635933v1.abstract">DOI: 10.1101/2025.01.31.635933</a>
+
 
 (2022) Parker, T.; Cetz,  J; Sousa, L.L.;  Kuzaya,  S.; Sassoum Lo, **Floriani,  T. O.**; Njau, S.;  Arunga,  E.; Duitama, J.; Jernstedt, J.; Myers, J.; Llaca, V.; Herrera-Estrella, A.; Gepts, P. Loss of pod strings in common bean is associated with gene duplication, retrotransposon insertion, and overexpression of PvInd. New Phytologist. DOI: 10.1111/nph.18319
 
