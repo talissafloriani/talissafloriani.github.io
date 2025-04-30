@@ -1,7 +1,7 @@
 ---
 layout: page
-title: about
-description: Hello there!    My name is Talissa Floriani; I'm an agronomist passionate about plants and genes.
+title: About
+description: Hello!    My name is Talissa Floriani; I'm an agronomist passionate about plants and genes.
 ---
 Hello there!    
 
