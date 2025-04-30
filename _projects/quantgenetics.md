@@ -48,7 +48,7 @@ My colleagues and I performed two videos, which are available on YouTube, and yo
 
 ---
 
-### 🧬 Why Is This Important?
+### Why Is This Important?
 
 Quantitative genetics helps us:
 - Understand heritability and genetic architecture
