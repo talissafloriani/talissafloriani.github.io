@@ -78,13 +78,13 @@ Statistical Genomics Laboratory
 # **Research Experience**  
 
 ### *Research Scholarship –Lab Project (2016 -2017)*   
-“Evaluation of common bean lineages and cultivars for Santa Catarina State” Conduction of “cultivation and use value test (VCU)”, from the breeding programs of institutions as EMBRAPA (Brazilian Agricultural Research Corporation), IAPAR (Plant Breeding at Agronomic Institute of Paraná State), EPAGRI and UDESC (Santa Catarina State University), aiming to select superior materials for Santa Catarina State. Talissa experimented in the agronomic field at UDESC, under the supervision of Professor Dr. Altamir Guidolin, the Principal Investigator.  
+“Evaluation of common bean lineages and cultivars for Santa Catarina State” Conduction of “cultivation and use value test (VCU)”, from the breeding programs of institutions as EMBRAPA (Brazilian Agricultural Research Corporation), IAPAR (Plant Breeding at Agronomic Institute of Paraná State), EPAGRI and UDESC (Santa Catarina State University), aiming to select superior materials for Santa Catarina State. Talissa experimented in the agronomic field at UDESC, under Professor Dr. Altamir Guidolin, the Principal Investigator.  
 
 ### *Research Scholarship – Lab Project (2017 -2019)* 
-“Creating an Active Germplasm Bank for Beans (*Phaseolus vulgaris* L.)”. Conservation, conducting experiments, multiplication, and evaluation of bean accessions in Santa Catarina State.  Identification  of  accessions  for  morphology  and  agronomic  characters,  as  a  basis  for  future  breeding programs. The experiment was conducted in greenhouses and the field by Talissa at UDESC and supervised by Professor Dr. Altamir Guidolin.  
+“Creating an Active Germplasm Bank for Beans (*Phaseolus vulgaris* L.)”. Conservation, conducting experiments, multiplication, and evaluating bean accessions in Santa Catarina State.  Identification  of  accessions  for  morphology  and  agronomic  characters,  as  a  basis  for  future  breeding programs. The experiment was conducted in greenhouses and the field by Talissa at UDESC and supervised by Professor Dr. Altamir Guidolin.  
 
 ### *Intern Scholarship – University of California, Davis (January 2020 – June 2020)*
-Research  intern  at  the  University  of  California,  Davis  (UCD) in genetics  and  plant  breeding,  working in the laboratory of Professor Dr. Paul Gepts, focusing on Crop evolution, domestication, and biodiversity. The work focused on the genetics of domestication in common beans (Phaseolus vulgaris L.), specifically examining pod dehiscence. Studies of complex traits: Insect resistance in Lima Bean (*Phaseolus lunatus*) and Virus Resistance in Common bean. Agronomy field in Chickpea (*Cicer arietinum*) and QTL analyses related to different topics in beans.    
+Research  intern  at  the  University  of  California,  Davis  (UCD) in genetics  and  plant  breeding,  working in the laboratory of Professor Dr. Paul Gepts, focusing on Crop evolution, domestication, and biodiversity. The work focused on the genetics of domestication in common beans (Phaseolus vulgaris L.), specifically examining pod dehiscence. Studies of complex traits: Insect resistance in Lima Bean (*Phaseolus lunatus*) and Virus Resistance in Common bean. Agronomy field in Chickpea (*Cicer arietinum*) and QTL analyses related to different bean topics.    
 
 ### *Graduate Research Assistant - FAPESP Thematic Project (2021-2023)*
 Research developed under the Master of Science program: Response of bean accessions to the Root Knot nematode *Meloidogyne incognita*: Mapping of QTLs, transcriptional profile, and functional study of candidate resistance genes. PI: Professor Dr. Antonio Augusto Franco Garcia
@@ -120,26 +120,28 @@ PI: Professor Dr. Alexander E. Lipka
 
 **(2019)** Santos, M.; Cerutti, P. H.; **Floriani, T. O.**; Barichello, E. C.; SILVA, J. A.; Trevisani, N. Creation of genetic variability in physalis  using methylmethanesulfonate (mms). In: V Simpósio Internacional Ciência, Saúde e Território,  2019,  Lages,  SC. Anais  do  V  Simpósio  Internacional  Ciência,  Saúde  e  Território.  Lages,  SC: UNIPLAC.  
  
-## **Presentations and Invited talks**  
+## **Presentations, Posters and Invited talks**  
 
 **(2016) Floriani, T. O.**; Coimbra, J. L. M.; Cerutti, P. H.; Melo, R. C.; Cardoso, T. R.; Guidolin, A.F. Root distribution associated with yield components in common bean (Phaseolus vulgaris L.)., 2016, Lages -SC. Anais do 26º Seminário de iniciação Científica.   
 **(2018) Floriani, T. O.**; Wille, C. L.; Almeida, E. L.; Cerutti, P. H.; Melo, R. C.; Correa, S. C.; Coimbra,  J.  L.  M.;  Guidolin,  A.  F. Importance  of  experimental  error  decomposition  in  the  discrimination  of cultivars. 2018, Lages/SC. Anais do 28º Seminário de iniciação Científica.    
 **(2019) Floriani, T. O.**; Nardello, F. A. C.; Rodrigues, A. R.; Darius, D. A.; Melo, R. C.; Souza, R. S.; Adams, C. R.; Cerutti, P. H.; Dos Santos, M.; Guidolin, A. F. Genetic divergence between common bean genotypes through multivariate techniques. 2019, Lages/SC. Anais do 29º Seminário de iniciação científica.   
-**(2020)** Undergraduate Research Week at the University of California Davis (UCD) **Floriani,  T.  O**. Bean  Breeding Programs at the Gepts Lab. 
+**(2020)** Undergraduate Research Week at the University of California Davis (UCD). Bean  Breeding Programs at the Gepts Lab. 
 <a href="https://www.youtube.com/watch?v=DTyLAKkJQRA"> University of California Davis -2020 Undergraduate Research Week YouTube</a>   
-**(2023)** Science and Spirits 5 min lightning talk - Looking for Rare Variants in Sorghum  
-**(2024)** Oral and poster presentation at PAG (Plant and Animal Genome Conference) talk at the Workshop Breeding for Changing Weather Conditions - MulX-Trait GxE G WAS: Looking for Rare Variants in Sorghum. Talissa Floriani, Samuel B Fernandes, Mohammed El-Kebir, Andrew Leakey, and Alexander E. Lipka  
+**(2024)** Science and Spirits 5 min lightning talk - Looking for Rare Variants in Sorghum  
+**(2024)** Oral and poster presentation at PAG (Plant and Animal Genome Conference) at the Workshop Breeding for Changing Weather Conditions - Multi-Trait GxE GWAS: Looking for Rare Variants in Sorghum. **Talissa Floriani**, Samuel B Fernandes, Mohammed El-Kebir, Andrew Leakey, and Alexander E. Lipka.  
 **(2024)** University of Bonn - INRES - Workshop on Statistical Genomics (organizer and speaker)  
 **(2025)** Discussion leader at Gordon Research Seminars (GRS), Lucca, Barga, Italy.   
 **(2025)** Quantitative Genetics and Genomics Gordon Research Conference, Lucca, Barga, Italy. “Enhancing genotype-phenotype associations and unveiling rare variants with machine learning”, Floriani T, El-Kebir M, Fernandes SB, Leakey A, and Lipka AE. February 16-20.  
+**(2025)** Science and Spirits 5 min lightning talk - Looking for Rare Variants in Sorghum. 
+
 
 ## **Awards and Honors**
 
 **(2018)** Scientific Merit: Oral Presentation earned a Scientific Merit Certificate and was awarded 2nd place in the Plant Production session at the 28th Annual Undergraduate Research Workshop at UDESC in Lages.  
-**(2021)** Scholarship from Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq, grant nº 131678/2021-3)  
-**(2022-2023)** Scholarship from São Paulo Research Foundation (FAPESP, grant nº 22/04061-3)  
-**(2023-Present)** J.C. Hackleman Fellowship/Illinois Crop Improvement Association Graduate Fellowship   
-**(2025)** Advances in Genome Biology and Technology (AGBT) Next Generation Leadership Award – Orlando, Florida  
+**(2021)** Scholarship from Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq, grant nº 131678/2021-3).  
+**(2022-2023)** Scholarship from São Paulo Research Foundation (FAPESP, grant nº 22/04061-3).  
+**(2023-Present)** J.C. Hackleman Fellowship/Illinois Crop Improvement Association Graduate Fellowship.   
+**(2025)** Advances in Genome Biology and Technology (AGBT) - Agricultural Meeting, Next Generation Leadership Award – Orlando, Florida.  
 
 ## **Extension and Scientific Events**
 **(2022 – 2023)** GVENCK—Scientific Committee: The Genetics and Plant Breeding Group “Prof. Roland Vencovsky” (GVENCK) by Genetics and Plant Breeding graduate students at Luiz de Queiroz College of Agriculture (ESALQ/USP), under the coordination of Professor Dr. José Baldin Pinheiro.    
