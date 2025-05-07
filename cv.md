@@ -132,7 +132,8 @@ PI: Professor Dr. Alexander E. Lipka
 **(2024)** University of Bonn - INRES - Workshop on Statistical Genomics (organizer and speaker)  
 **(2025)** Discussion leader at Gordon Research Seminars (GRS), Lucca, Barga, Italy.   
 **(2025)** Quantitative Genetics and Genomics Gordon Research Conference, Lucca, Barga, Italy. “Enhancing genotype-phenotype associations and unveiling rare variants with machine learning”, Floriani T, El-Kebir M, Fernandes SB, Leakey A, and Lipka AE. February 16-20.  
-**(2025)** Science and Spirits 5 min lightning talk - Looking for Rare Variants in Sorghum. 
+**(2025)** Science and Spirits 5 min lightning talk - Cracking the Genetic Code: Unveiling Rare Variants and Transforming Genotype-Phenotype associations with Machine Learning.
+
 
 
 ## **Awards and Honors**
