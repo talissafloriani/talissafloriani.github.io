@@ -41,8 +41,8 @@ output:
 <div class="header">
   <div class="name">Talissa Oliveira Floriani </div>
   <div class="title">
-    Ph.D. Student – Graduate Research Assistant in Crop Sciences<br>
-    Teaching Assistant at CPSC-440<br>
+    Ph.D. Candidate  – Graduate Research Assistant in Crop Sciences<br>
+    Teaching Assistant at CPSC-440 and CPSC-540<br>
     University of Illinois at Urbana-Champaign<br>
     College of Agricultural, Consumer, and Environmental Sciences<br>
     Department of Crop Sciences
@@ -84,7 +84,7 @@ Teaching Assistant at the University of Illinois Urbana-Champaign for Applied St
 
 ### *Intern – University of Bonn, Germany (Summer 2024)*
 Area: Crop Functional Genomics and Statistical Genomics.  
-INRES, with PIs Dr. Peng Yu and Dr. Frank Hochholdinger.
+INRES, with PIs **Dr. Peng Yu and Dr. Frank Hochholdinger**.
 
 Integrated functional genomics insights with statistical models in an international research environment to support breeding applications.
 
@@ -92,17 +92,17 @@ Integrated functional genomics insights with statistical models in an internatio
 Scholar at the Artificial Intelligence for Future Agricultural Resilience, Management, and Sustainability (AIFARMS) Institute.  
 Department of Crop Sciences at the University of Illinois Urbana-Champaign.  
 Project title: *Enhancing Genotype-Phenotype Associations and Unveiling Rare Variants with Machine Learning.*  
-PI: Professor Dr. Alexander E. Lipka.
+PI: **Professor Dr. Alexander E. Lipka**.
 
 Applying machine learning to analyze large-scale genomic datasets and improve rare-variant detection. Building scalable genomic analysis pipelines in R, Python, and high-performance computing environments.
 
 ### *Graduate Research Assistant - FAPESP Thematic Project (2021 – 2023)*
 Research developed under the Master of Science program:  
 *Response of bean accessions to the Root Knot nematode Meloidogyne incognita: Mapping of QTLs, transcriptional profile, and functional study of candidate resistance genes.*  
-PI: Professor Dr. Antonio Augusto Franco Garcia
+PI: **Professor Dr. Antonio Augusto Franco Garcia**
 
 ### *Intern Scholarship – University of California, Davis (January 2020 – June 2020)*
-Research intern at the University of California, Davis (UCD) in genetics and plant breeding, working in the laboratory of Professor Dr. Paul Gepts, focusing on crop evolution, domestication, and biodiversity.
+Research intern at the University of California, Davis (UCD) in genetics and plant breeding, working in the laboratory of **Professor Dr. Paul Gepts**, focusing on crop evolution, domestication, and biodiversity.
 
 The work focused on the genetics of domestication in common beans (*Phaseolus vulgaris* L.), specifically examining pod dehiscence. Studies of complex traits: insect resistance in Lima Bean (*Phaseolus lunatus*) and virus resistance in common bean. Agronomy field in Chickpea (*Cicer arietinum*) and QTL analyses related to different bean topics.
 
@@ -126,7 +126,7 @@ Experiments designed in the agronomic field at UDESC, under Professor Dr. Altami
 
 **(2025) Floriani, T.**, & Lipka, A. E. Rare variants in crops: theoretical insights and emerging detection strategies. In Silico Plants, 7(2).<a href ="https://academic.oup.com/insilicoplants/article/7/2/diaf012/8214285 ">DOI: https://doi.org/10.1093/insilicoplants/diaf012</a>
 
-**(2025) Floriani, T. O.**; Gama, H, C.; Moreno, B.M.; Costa, G. A. L.; Giordani, W.; Chiorato, A. F.; Bibiano, L.; Parker, T.; Camargo, L. E. A.; Vieira, M. L. C.; Garcia, A. A. F. Developing a model to implement marker assisted selection for root-knot nematode resistance in common bean. G3 Genes, Genomes, Genetics. <a [href="https://www.biorxiv.org/content/10.1101/2025.01.31.635933v1.abstract](https://academic.oup.com/g3journal/article/doi/10.1093/g3journal/jkaf221/8316678?__cf_chl_tk=kWlf7ClBRpY1uLmq19k7xX7LHLH6gEduULWPXNfi4ts-1773689489-1.0.1.1-bcXjFu3Iu2xp72NmGQT1aptniYJcSaw8vwqmyXHOv0s)">DOI: 10.1101/2025.01.31.635933</a>  
+**(2025) Floriani, T. O.**; Gama, H, C.; Moreno, B.M.; Costa, G. A. L.; Giordani, W.; Chiorato, A. F.; Bibiano, L.; Parker, T.; Camargo, L. E. A.; Vieira, M. L. C.; Garcia, A. A. F. Developing a model to implement marker assisted selection for root-knot nematode resistance in common bean. G3 Genes, Genomes, Genetics.[href="https://www.biorxiv.org/content/10.1101/2025.01.31.635933v1.abstract](https://academic.oup.com/g3journal/article/doi/10.1093/g3journal/jkaf221/8316678?__cf_chl_tk=kWlf7ClBRpY1uLmq19k7xX7LHLH6gEduULWPXNfi4ts-1773689489-1.0.1.1-bcXjFu3Iu2xp72NmGQT1aptniYJcSaw8vwqmyXHOv0s)
 
 **(2022)** Parker, T.; Cetz,  J; Sousa, L.L.;  Kuzaya,  S.; Sassoum Lo, **Floriani,  T. O.**; Njau, S.;  Arunga,  E.; Duitama, J.; Jernstedt, J.; Myers, J.; Llaca, V.; Herrera-Estrella, A.; Gepts, P. Loss of pod strings in common bean is associated with gene duplication, retrotransposon insertion, and overexpression of PvInd. New Phytologist. <a href="https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.18319">DOI: 10.1111/nph.18319</a>  
 
@@ -151,8 +151,7 @@ Experiments designed in the agronomic field at UDESC, under Professor Dr. Altami
 Floriani T, El-Kebir M, Fernandes S. B., Leakey A., and Lipka A. E.  
 February 16–20.
 
-**(2025)** DIGICROP.  
-*The role of Machine Learning in genetic association studies.*
+**(2025)** DIGICROP.  *The role of Machine Learning in genetic association studies.*
 
 **(2025)** Discussion leader at Gordon Research Seminars (GRS), Lucca, Barga, Italy.
 
