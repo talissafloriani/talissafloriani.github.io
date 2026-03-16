@@ -22,7 +22,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Projects", file: "_projects"}
   - {title: "Blog", file: "blog.md"}
   - {title: "Tips", file: "tips.md"}
-  - {file: "Presentations/index.md", title: "Presentations"}
+  - {file: "presentations/index.md", title: "Presentations"}
   
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:talissa2@illinois.edu"}
