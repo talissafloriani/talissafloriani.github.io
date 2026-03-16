@@ -39,7 +39,7 @@ output:
 </style>
 
 <div class="header">
-  <div class="name">Talissa Oliveira Floriani Z Souza</div>
+  <div class="name">Talissa Oliveira Floriani </div>
   <div class="title">
     Ph.D. Student – Graduate Research Assistant in Crop Sciences<br>
     Teaching Assistant at CPSC-440<br>
@@ -55,54 +55,78 @@ output:
 
 
 # **Education**
-  
-### *Bachelor's degree in Agronomy   - (February 2015–November 2020)*
-Center for Agroveterinary Sciences -CAV  
-Santa Catarina State University - UDESC
-Undergraduate  thesis: "Improvement  of  cultivated  plants  at the  University  of  California: From  Conventional to molecular genetics"   
 
-### *Master of Science (MSc) in Genetics and Plant Breeding  - (August 2021 – November 2023)*
-"Luiz de Queiroz" College of Agriculture - University of São Paulo
-Master of Science in Genetics and Plant Breeding  
-Statistical Genetics Laboratory  
-
-### *Master of Business and Administration (MBA) in Data Science and Analytics (2022- 2024)*
-"Luiz de Queiroz" College of Agriculture - University of São Paulo
-
-### *Ph.D. student in Crop Sciences (May 2023 - Present)*
-University of Illinois at Urbana-Champaign
-College of Agricultural, Consumer and Environmental Sciences
-Department of Crop Sciences
+### *Ph.D. student in Crop Sciences - (May 2023 – Present)*
+University of Illinois at Urbana-Champaign  
+College of Agricultural, Consumer and Environmental Sciences  
+Department of Crop Sciences  
 Statistical Genomics Laboratory
+
+### *Master of Business Administration (MBA) in Data Science and Analytics - (2022 – 2024)*
+"Luiz de Queiroz" College of Agriculture - University of São Paulo
+
+### *Master of Science (MSc) in Genetics and Plant Breeding - (August 2021 – November 2023)*
+"Luiz de Queiroz" College of Agriculture - University of São Paulo  
+Master of Science in Genetics and Plant Breeding  
+Statistical Genetics Laboratory
+
+### *Bachelor's degree in Agronomy - (February 2015 – November 2020)*
+Center for Agroveterinary Sciences - CAV  
+Santa Catarina State University - UDESC  
+
+Undergraduate thesis:  
+"Improvement of cultivated plants at the University of California: From Conventional to molecular genetics"
 
 # **Research Experience**  
 
-### *Research Scholarship –Lab Project (2016 -2017)*   
-“Evaluation of common bean lineages and cultivars for Santa Catarina State” Conduction of “cultivation and use value test (VCU)”, from the breeding programs of institutions as EMBRAPA (Brazilian Agricultural Research Corporation), IAPAR (Plant Breeding at Agronomic Institute of Paraná State), EPAGRI and UDESC (Santa Catarina State University), aiming to select superior materials for Santa Catarina State. Talissa experimented in the agronomic field at UDESC, under Professor Dr. Altamir Guidolin, the Principal Investigator.  
-
-### *Research Scholarship – Lab Project (2017 -2019)* 
-“Creating an Active Germplasm Bank for Beans (*Phaseolus vulgaris* L.)”. Conservation, conducting experiments, multiplication, and evaluating bean accessions in Santa Catarina State.  Identification  of  accessions  for  morphology  and  agronomic  characters,  as  a  basis  for  future  breeding programs. The experiment was conducted in greenhouses and the field by Talissa at UDESC and supervised by Professor Dr. Altamir Guidolin.  
-
-### *Intern Scholarship – University of California, Davis (January 2020 – June 2020)*
-Research  intern  at  the  University  of  California,  Davis  (UCD) in genetics  and  plant  breeding,  working in the laboratory of Professor Dr. Paul Gepts, focusing on Crop evolution, domestication, and biodiversity. The work focused on the genetics of domestication in common beans (Phaseolus vulgaris L.), specifically examining pod dehiscence. Studies of complex traits: Insect resistance in Lima Bean (*Phaseolus lunatus*) and Virus Resistance in Common bean. Agronomy field in Chickpea (*Cicer arietinum*) and QTL analyses related to different bean topics.    
-
-### *Graduate Research Assistant - FAPESP Thematic Project (2021-2023)*
-Research developed under the Master of Science program: Response of bean accessions to the Root Knot nematode *Meloidogyne incognita*: Mapping of QTLs, transcriptional profile, and functional study of candidate resistance genes. PI: Professor Dr. Antonio Augusto Franco Garcia
+### *Teaching Assistant – Applied Statistical Analysis I and II (August 2024 – Present)*
+Teaching Assistant at the University of Illinois Urbana-Champaign for Applied Statistical Analysis courses.
 
 ### *Intern – University of Bonn, Germany (Summer 2024)*
-Area: Crop Functional Genomics and Statistical Genomics. INRES, with PIs Dr. Peng Yu and Dr. Frank Hochholdigner.
+Area: Crop Functional Genomics and Statistical Genomics.  
+INRES, with PIs Dr. Peng Yu and Dr. Frank Hochholdinger.
 
-### *Graduate Research Assistant (May 2023- Present)*
-Scholar at the Artificial Intelligence for Future Agricultural Resilience, Management, and Sustainability AIFARMS Institute. 
-Department of Crop Sciences at the University of Illinois Urbana-Champaign.
-Project title: Enhancing Genotype-Phenotype Associations and Unveiling Rare Variants with Machine Learning. 
-PI: Professor Dr. Alexander E. Lipka
+Integrated functional genomics insights with statistical models in an international research environment to support breeding applications.
+
+### *Graduate Research Assistant (May 2023 – Present)*
+Scholar at the Artificial Intelligence for Future Agricultural Resilience, Management, and Sustainability (AIFARMS) Institute.  
+Department of Crop Sciences at the University of Illinois Urbana-Champaign.  
+Project title: *Enhancing Genotype-Phenotype Associations and Unveiling Rare Variants with Machine Learning.*  
+PI: Professor Dr. Alexander E. Lipka.
+
+Applying machine learning to analyze large-scale genomic datasets and improve rare-variant detection. Building scalable genomic analysis pipelines in R, Python, and high-performance computing environments.
+
+### *Graduate Research Assistant - FAPESP Thematic Project (2021 – 2023)*
+Research developed under the Master of Science program:  
+*Response of bean accessions to the Root Knot nematode Meloidogyne incognita: Mapping of QTLs, transcriptional profile, and functional study of candidate resistance genes.*  
+PI: Professor Dr. Antonio Augusto Franco Garcia
+
+### *Intern Scholarship – University of California, Davis (January 2020 – June 2020)*
+Research intern at the University of California, Davis (UCD) in genetics and plant breeding, working in the laboratory of Professor Dr. Paul Gepts, focusing on crop evolution, domestication, and biodiversity.
+
+The work focused on the genetics of domestication in common beans (*Phaseolus vulgaris* L.), specifically examining pod dehiscence. Studies of complex traits: insect resistance in Lima Bean (*Phaseolus lunatus*) and virus resistance in common bean. Agronomy field in Chickpea (*Cicer arietinum*) and QTL analyses related to different bean topics.
+
+### *Research Scholarship – Lab Project (2017 – 2019)*
+*Creating an Active Germplasm Bank for Beans (Phaseolus vulgaris L.)*
+
+Conservation, conducting experiments, multiplication, and evaluating bean accessions in Santa Catarina State. Identification of accessions for morphology and agronomic characters, as a basis for future breeding programs.
+
+The experiment was conducted in greenhouses and the field by Talissa at UDESC and supervised by Professor Dr. Altamir Guidolin.
+
+### *Research Scholarship – Lab Project (2016 – 2017)*
+*Evaluation of common bean lineages and cultivars for Santa Catarina State*
+
+Conduction of “cultivation and use value test (VCU)”, from the breeding programs of institutions as EMBRAPA (Brazilian Agricultural Research Corporation), IAPAR (Plant Breeding at Agronomic Institute of Paraná State), EPAGRI and UDESC (Santa Catarina State University), aiming to select superior materials for Santa Catarina State.
+Experiments designed in the agronomic field at UDESC, under Professor Dr. Altamir Guidolin, the Principal Investigator.
+
 
 # **Publications**
 
 ### *Peer-reviewed journals*
 
-**(2025) Floriani, T. O.**; Gama, H, C.; Moreno, B.M.; Costa, G. A. L.; Giordani, W.; Chiorato, A. F.; Bibiano, L.; Parker, T.; Camargo, L. E. A.; Vieira, M. L. C.; Garcia, A. A. F. Developing a model to implement marker assisted selection for root-knot nematode resistance in common bean. G3 Genes, Genomes, Genetics. *In press.*  <a href="https://www.biorxiv.org/content/10.1101/2025.01.31.635933v1.abstract">DOI: 10.1101/2025.01.31.635933</a>  
+**(2025) Floriani, T.**, & Lipka, A. E. Rare variants in crops: theoretical insights and emerging detection strategies. In Silico Plants, 7(2).<a href ="https://academic.oup.com/insilicoplants/article/7/2/diaf012/8214285 ">DOI: https://doi.org/10.1093/insilicoplants/diaf012</a>
+
+**(2025) Floriani, T. O.**; Gama, H, C.; Moreno, B.M.; Costa, G. A. L.; Giordani, W.; Chiorato, A. F.; Bibiano, L.; Parker, T.; Camargo, L. E. A.; Vieira, M. L. C.; Garcia, A. A. F. Developing a model to implement marker assisted selection for root-knot nematode resistance in common bean. G3 Genes, Genomes, Genetics. <a [href="https://www.biorxiv.org/content/10.1101/2025.01.31.635933v1.abstract](https://academic.oup.com/g3journal/article/doi/10.1093/g3journal/jkaf221/8316678?__cf_chl_tk=kWlf7ClBRpY1uLmq19k7xX7LHLH6gEduULWPXNfi4ts-1773689489-1.0.1.1-bcXjFu3Iu2xp72NmGQT1aptniYJcSaw8vwqmyXHOv0s)">DOI: 10.1101/2025.01.31.635933</a>  
 
 **(2022)** Parker, T.; Cetz,  J; Sousa, L.L.;  Kuzaya,  S.; Sassoum Lo, **Floriani,  T. O.**; Njau, S.;  Arunga,  E.; Duitama, J.; Jernstedt, J.; Myers, J.; Llaca, V.; Herrera-Estrella, A.; Gepts, P. Loss of pod strings in common bean is associated with gene duplication, retrotransposon insertion, and overexpression of PvInd. New Phytologist. <a href="https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.18319">DOI: 10.1111/nph.18319</a>  
 
@@ -122,28 +146,87 @@ PI: Professor Dr. Alexander E. Lipka
  
 ## **Presentations, Posters and Invited talks**  
 
-**(2016) Floriani, T. O.**; Coimbra, J. L. M.; Cerutti, P. H.; Melo, R. C.; Cardoso, T. R.; Guidolin, A.F. Root distribution associated with yield components in common bean (Phaseolus vulgaris L.)., 2016, Lages -SC. Anais do 26º Seminário de iniciação Científica.   
-**(2018) Floriani, T. O.**; Wille, C. L.; Almeida, E. L.; Cerutti, P. H.; Melo, R. C.; Correa, S. C.; Coimbra,  J.  L.  M.;  Guidolin,  A.  F. Importance  of  experimental  error  decomposition  in  the  discrimination  of cultivars. 2018, Lages/SC. Anais do 28º Seminário de iniciação Científica.    
-**(2019) Floriani, T. O.**; Nardello, F. A. C.; Rodrigues, A. R.; Darius, D. A.; Melo, R. C.; Souza, R. S.; Adams, C. R.; Cerutti, P. H.; Dos Santos, M.; Guidolin, A. F. Genetic divergence between common bean genotypes through multivariate techniques. 2019, Lages/SC. Anais do 29º Seminário de iniciação científica.   
-**(2020)** Undergraduate Research Week at the University of California Davis (UCD). Bean  Breeding Programs at the Gepts Lab. 
-<a href="https://www.youtube.com/watch?v=DTyLAKkJQRA"> University of California Davis -2020 Undergraduate Research Week YouTube</a>   
-**(2024)** Science and Spirits 5 min lightning talk - Looking for Rare Variants in Sorghum  
-**(2024)** Oral and poster presentation at PAG (Plant and Animal Genome Conference) at the Workshop Breeding for Changing Weather Conditions - Multi-Trait GxE GWAS: Looking for Rare Variants in Sorghum. **Talissa Floriani**, Samuel B Fernandes, Mohammed El-Kebir, Andrew Leakey, and Alexander E. Lipka.  
-**(2024)** University of Bonn - INRES - Workshop on Statistical Genomics (organizer and speaker)  
-**(2025)** Discussion leader at Gordon Research Seminars (GRS), Lucca, Barga, Italy.   
-**(2025)** Quantitative Genetics and Genomics Gordon Research Conference, Lucca, Barga, Italy. “Enhancing genotype-phenotype associations and unveiling rare variants with machine learning”, Floriani T, El-Kebir M, Fernandes SB, Leakey A, and Lipka AE. February 16-20.  
-**(2025)** Science and Spirits 5 min lightning talk - Cracking the Genetic Code: Unveiling Rare Variants and Transforming Genotype-Phenotype associations with Machine Learning.
+**(2025)** Quantitative Genetics and Genomics Gordon Research Conference, Lucca, Barga, Italy.  
+*Enhancing genotype-phenotype associations and unveiling rare variants with machine learning.*  
+Floriani T, El-Kebir M, Fernandes S. B., Leakey A., and Lipka A. E.  
+February 16–20.
+
+**(2025)** DIGICROP.  
+*The role of Machine Learning in genetic association studies.*
+
+**(2025)** Discussion leader at Gordon Research Seminars (GRS), Lucca, Barga, Italy.
+
+**(2025)** Science and Spirits 5 min lightning talk.  
+*Cracking the Genetic Code: Unveiling Rare Variants and Transforming Genotype-Phenotype Associations with Machine Learning.*
+
+**(2024)** Oral and poster presentation at PAG (Plant and Animal Genome Conference), at the Workshop *Breeding for Changing Weather Conditions*.  
+*Multi-Trait GxE GWAS: Looking for Rare Variants in Sorghum.*  
+**Talissa Floriani**, Samuel B Fernandes, Mohammed El-Kebir, Andrew Leakey, and Alexander E. Lipka.
+
+**(2024)** University of Bonn - INRES - Workshop on Statistical Genomics.  
+Organizer and speaker.
+
+**(2024)** Science and Spirits 5 min lightning talk.  
+*Looking for Rare Variants in Sorghum.*
+
+**(2020)** Undergraduate Research Week at the University of California Davis (UCD).  
+*Bean Breeding Programs at the Gepts Lab.*  
+University of California Davis - 2020 Undergraduate Research Week YouTube
+
+**(2019)** **Floriani, T. O.**; Nardello, F. A. C.; Rodrigues, A. R.; Darius, D. A.; Melo, R. C.; Souza, R. S.; Adams, C. R.; Cerutti, P. H.; Dos Santos, M.; Guidolin, A. F.  
+*Genetic divergence between common bean genotypes through multivariate techniques.*  
+2019, Lages/SC. Anais do 29º Seminário de iniciação científica.
+
+**(2018)** **Floriani, T. O.**; Wille, C. L.; Almeida, E. L.; Cerutti, P. H.; Melo, R. C.; Correa, S. C.; Coimbra, J. L. M.; Guidolin, A. F.  
+*Importance of experimental error decomposition in the discrimination of cultivars.*  
+2018, Lages/SC. Anais do 28º Seminário de iniciação Científica.
+
+**(2016)** **Floriani, T. O.**; Coimbra, J. L. M.; Cerutti, P. H.; Melo, R. C.; Cardoso, T. R.; Guidolin, A. F.  
+*Root distribution associated with yield components in common bean (Phaseolus vulgaris L.).*  
+2016, Lages/SC. Anais do 26º Seminário de iniciação Científica.
+
 
 
 
 ## **Awards and Honors**
 
-**(2018)** Scientific Merit: Oral Presentation earned a Scientific Merit Certificate and was awarded 2nd place in the Plant Production session at the 28th Annual Undergraduate Research Workshop at UDESC in Lages.  
-**(2021)** Scholarship from Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq, grant nº 131678/2021-3).  
-**(2022-2023)** Scholarship from São Paulo Research Foundation (FAPESP, grant nº 22/04061-3).  
-**(2023-Present)** J.C. Hackleman Fellowship/Illinois Crop Improvement Association Graduate Fellowship.   
-**(2025)** Advances in Genome Biology and Technology (AGBT) - Agricultural Meeting, Next Generation Leadership Award – Orlando, Florida.  
+**(2025)** Research featured in *Seed World News.*
 
-## **Extension and Scientific Events**
-**(2022 – 2023)** GVENCK—Scientific Committee: The Genetics and Plant Breeding Group “Prof. Roland Vencovsky” (GVENCK) by Genetics and Plant Breeding graduate students at Luiz de Queiroz College of Agriculture (ESALQ/USP), under the coordination of Professor Dr. José Baldin Pinheiro.    
-**(2024 –Present)** Plant Sciences Symposium: Member of the Communication and planning committees for UIUC’s 2024 Corteva Agriscience Plant Sciences Symposium. Also responsible for external outreach.  
+**(2025)** Advances in Genome Biology and Technology (AGBT) - Agricultural Meeting,  
+*Next Generation Leadership Award* – Orlando, Florida.
+
+**(2024 – 2025)** Bayer University Mentoring Program – Mentee.
+
+**(2023 – Present)** J.C. Hackleman Fellowship / Illinois Crop Improvement Association Graduate Fellowship.
+
+**(2022 – 2023)** Scholarship from São Paulo Research Foundation (FAPESP, grant nº 22/04061-3).
+
+**(2021)** Scholarship from Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq, grant nº 131678/2021-3).
+
+**(2018)** Scientific Merit: Oral Presentation earned a Scientific Merit Certificate and was awarded 2nd place in the Plant Production session at the 28th Annual Undergraduate Research Workshop at UDESC in Lages.
+
+# **Extension and Scientific Events**
+
+**(2025)** Mentor, Center for Digital Agriculture Research Experiences for Undergraduates (REU) Program.
+
+**(2024 – Present)** Plant Sciences Symposium: Co-Chair and member of the planning and communication committees for UIUC’s Plant Sciences Symposium.  
+Also responsible for external outreach.
+
+**(2024 – Present)** Member of the Planning Committee for the Corteva Agriscience Plant Sciences Symposium.
+
+**(2022 – 2023)** GVENCK—Scientific Committee: The Genetics and Plant Breeding Group “Prof. Roland Vencovsky” (GVENCK) by Genetics and Plant Breeding graduate students at Luiz de Queiroz College of Agriculture (ESALQ/USP), under the coordination of Professor Dr. José Baldin Pinheiro.
+
+# **Technical Skills**
+
+R, Python, Git, high-performance computing (HPC), Parsl, genomic prediction, GWAS, QTL mapping, linear mixed models, machine learning, rare-variant analysis, statistical genomics, quantitative genetics.
+
+Additional research experience includes molecular laboratory techniques, field breeding trials, phenotyping, agronomic experimentation, and genomic data analysis.
+
+# **Selected Technical Projects**
+
+**(2025 – 2026)** Developed the Statistical-Genomic Mixed Random Forest (SMRF) framework for rare-variant detection in crop genomic datasets, integrating mixed models, GWAS concepts, machine learning, and scalable computing. R package currently under development.
+
+**(2024)** Built genomic analysis pipelines in R for large-scale genotype-phenotype association studies using HPC environments.
+
+**(2023)** Applied quantitative genetic methods to trait dissection and marker-assisted selection in common bean.
+
