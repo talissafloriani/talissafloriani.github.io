@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Presentations"
-permalink: /presentations/
+permalink: /Presentations/
 ---
 
 Here are selected talks and presentations from lab meetings, research discussions, and academic work.
