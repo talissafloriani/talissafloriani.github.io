@@ -13,4 +13,4 @@ Topics covered:
 - genetic covariance between relatives
 - implications for breeding and genomic prediction
 
-[Download the slides](/assets/pdf/resemblance-between-relatives.pdf)
+[Download the slides](/assets/pdf/resemblance_slides_TF.pdf)
