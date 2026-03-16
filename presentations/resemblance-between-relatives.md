@@ -1,10 +1,10 @@
 ---
 layout: page
 title: "Resemblance Between Relatives"
-permalink: /talks/resemblance-between-relatives/
+permalink: /presentations/resemblance-between-relatives/
 ---
 
-Slides from my Lipka Lab meeting discussion on resemblance between relatives, based on Chapter 7 of Lynch & Walsh.
+Slides from my Lipka Lab meeting on resemblance between relatives.
 
 Topics covered:
 - identity by descent and identity by state
