@@ -5,9 +5,13 @@ description: Hello!    My name is Talissa Floriani; I'm an agronomist passionate
 ---
 Hello there!    
 
-My name is Talissa Floriani; I'm a PhD student passionate about plants and genes. I earned my bachelor's degree in Agronomy from Santa Catarina State University (UDESC) and completed my senior year at the University of California, Davis (UCD), in the Gepts Lab. I defended my Master's degree in Genetics and Plant Breeding from the University of São Paulo's "Luiz de Queiroz" College of Agriculture, with a FAPESP thematic project on common beans at the Statistical Genetics Laboratory. Currently, I'm a Graduate Research Assistant at the University of Illinois at Urbana-Champaign, Department of Crop Sciences, under the supervision of Professor Alex Lipka as my Principal Investigator. My work is related to genetics and plant breeding, with a focus on statistical genomics and machine learning analysis in sorghum.
+I am a Ph.D. candidate in Crop Sciences at the University of Illinois Urbana-Champaign, working at the intersection of quantitative genetics, statistical genomics, and machine learning for crop improvement.
 
-During my free time, I enjoy outdoor activities, such as running or rowing, and indoors, I love to paint and create new things. I'm a super fan of rock, pizza, and coffee. Here, we will discuss a range of topics, including science, hobbies, tips, codes, and more.    
+My research focuses on understanding genotype–phenotype relationships and developing computational approaches for plant breeding, with interests in genomic prediction, GWAS, rare-variant detection, mixed models, and data-driven methods for complex trait analysis.
+
+I have experience across statistical genetics, molecular genetics, field breeding, and high-performance computing, and I enjoy building tools and workflows that connect classical quantitative genetics with modern genomic and machine learning approaches.
+
+Beyond research, I am also involved in teaching, scientific communication, and leadership initiatives within the plant science community.
 
 Enjoy! :)
 
