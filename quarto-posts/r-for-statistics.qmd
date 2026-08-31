@@ -1,0 +1,2281 @@
+---
+title: "Getting Started with R & RStudio for Statistics"
+subtitle: "A practical introduction to working with data and making plots in R"
+author: "Talissa Floriani"
+date: "2026-08-31"
+
+format:
+  html:
+    toc: true
+    toc-title: "In this guide"
+    toc-location: right
+    toc-depth: 2
+    code-copy: true
+    code-fold: false
+    code-overflow: wrap
+    smooth-scroll: true
+
+execute:
+  warning: false
+  message: false
+---
+
+<style>
+
+/* =========================================================
+   COLORS
+   ========================================================= */
+
+:root {
+  --illinois-navy: #13294B;
+  --illinois-orange: #FF5F05;
+
+  --pink: #D94F8A;
+  --pink-dark: #A93368;
+  --pink-light: #FFF1F6;
+
+  --orange-light: #FFF3EC;
+  --navy-light: #EFF3F8;
+
+  --cream: #FFFCF8;
+  --white: #FFFFFF;
+  --text: #25282D;
+  --muted: #667085;
+  --border: #E4E7EC;
+}
+
+
+/* =========================================================
+   PAGE
+   ========================================================= */
+
+body {
+  background-color: var(--cream);
+  color: var(--text);
+
+  font-family:
+    "Avenir Next",
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  font-size: 1.03rem;
+  line-height: 1.75;
+}
+
+main.content {
+  max-width: 880px;
+}
+
+
+/* =========================================================
+   TITLE
+   ========================================================= */
+
+.quarto-title-block {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+
+  border-bottom: 4px solid var(--illinois-orange);
+}
+
+.quarto-title h1.title {
+  color: var(--illinois-navy);
+
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.08;
+
+  letter-spacing: -0.04em;
+}
+
+.quarto-title .subtitle {
+  color: var(--muted);
+
+  font-size: 1.2rem;
+  line-height: 1.55;
+
+  max-width: 720px;
+}
+
+
+/* =========================================================
+   HEADINGS
+   ========================================================= */
+
+h1,
+h2,
+h3 {
+  color: var(--illinois-navy);
+}
+
+h1 {
+  font-weight: 800;
+
+  letter-spacing: -0.025em;
+
+  margin-top: 3.5rem;
+}
+
+h2 {
+  font-weight: 750;
+  margin-top: 2.3rem;
+}
+
+h3 {
+  color: var(--pink-dark);
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero {
+  background:
+    linear-gradient(
+      135deg,
+      #EEF3F9 0%,
+      #FFF2F7 55%,
+      #FFF5EE 100%
+    );
+
+  border: 1px solid var(--border);
+
+  border-radius: 20px;
+
+  padding: 2rem 2.2rem;
+
+  margin:
+    1rem 0
+    2.8rem 0;
+}
+
+.hero h2 {
+  color: var(--illinois-navy);
+
+  font-size: 1.8rem;
+
+  margin-top: 0.5rem;
+}
+
+.hero-label {
+  display: inline-block;
+
+  background: var(--illinois-navy);
+  color: white;
+
+  border-radius: 100px;
+
+  padding:
+    0.3rem
+    0.75rem;
+
+  font-size: 0.72rem;
+  font-weight: 750;
+
+  letter-spacing: 0.08em;
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 0.5rem;
+
+  margin-top: 1.3rem;
+}
+
+.pill {
+  background: rgba(255,255,255,0.8);
+
+  color: var(--illinois-navy);
+
+  border: 1px solid var(--border);
+
+  border-radius: 100px;
+
+  padding:
+    0.35rem
+    0.8rem;
+
+  font-size: 0.83rem;
+}
+
+
+/* =========================================================
+   SECTION LABEL
+   ========================================================= */
+
+.section-label {
+  display: inline-block;
+
+  color: var(--illinois-orange);
+
+  font-size: 0.7rem;
+  font-weight: 800;
+
+  letter-spacing: 0.12em;
+
+  margin-top: 2.8rem;
+  margin-bottom: -0.3rem;
+}
+
+.section-label-pink {
+  color: var(--pink);
+}
+
+
+/* =========================================================
+   CARDS
+   ========================================================= */
+
+.card-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 1rem;
+
+  margin:
+    1.4rem 0
+    2.5rem 0;
+}
+
+.info-card {
+  background: var(--white);
+
+  border: 1px solid var(--border);
+
+  border-radius: 14px;
+
+  padding: 1.3rem 1.4rem;
+}
+
+.info-card h3 {
+  color: var(--illinois-navy);
+
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+
+  font-size: 1.08rem;
+}
+
+.info-card p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   R vs RSTUDIO
+   ========================================================= */
+
+.compare-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 1rem;
+
+  margin:
+    1.4rem 0
+    2rem 0;
+}
+
+.compare-card {
+  border-radius: 16px;
+
+  padding: 1.5rem;
+
+  border: 1px solid var(--border);
+}
+
+.compare-r {
+  background: var(--illinois-navy);
+  color: white;
+}
+
+.compare-r h3 {
+  color: white;
+  margin-top: 0;
+}
+
+.compare-rstudio {
+  background: var(--pink-light);
+  color: var(--illinois-navy);
+}
+
+.compare-rstudio h3 {
+  color: var(--pink-dark);
+  margin-top: 0;
+}
+
+
+/* =========================================================
+   SMALL NOTES
+   ========================================================= */
+
+.note-box {
+  background: var(--navy-light);
+
+  border-left: 5px solid var(--illinois-navy);
+
+  border-radius:
+    0 10px 10px 0;
+
+  padding:
+    1rem
+    1.25rem;
+
+  margin:
+    1.5rem 0;
+}
+
+.tip-box {
+  background: var(--pink-light);
+
+  border-left: 5px solid var(--pink);
+
+  border-radius:
+    0 10px 10px 0;
+
+  padding:
+    1rem
+    1.25rem;
+
+  margin:
+    1.5rem 0;
+}
+
+.warning-box {
+  background: var(--orange-light);
+
+  border-left: 5px solid var(--illinois-orange);
+
+  border-radius:
+    0 10px 10px 0;
+
+  padding:
+    1rem
+    1.25rem;
+
+  margin:
+    1.5rem 0;
+}
+
+
+/* =========================================================
+   CODE
+   ========================================================= */
+
+div.sourceCode {
+  border: 1px solid #E1E5EA;
+
+  border-left:
+    4px solid var(--illinois-orange);
+
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+pre.sourceCode {
+  padding: 1rem;
+}
+
+code {
+  font-family:
+    "SFMono-Regular",
+    Consolas,
+    "Liberation Mono",
+    monospace;
+}
+
+:not(pre) > code {
+  background: #F1F3F6;
+
+  color: var(--pink-dark);
+
+  border-radius: 4px;
+
+  padding:
+    0.1rem
+    0.3rem;
+}
+
+
+/* =========================================================
+   GGPLOT FORMULA
+   ========================================================= */
+
+.ggplot-formula {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 0.55rem;
+
+  background: var(--white);
+
+  border: 1px solid var(--border);
+
+  border-radius: 14px;
+
+  padding: 1.2rem;
+
+  margin:
+    1.7rem 0;
+}
+
+.formula-part {
+  background: var(--navy-light);
+
+  color: var(--illinois-navy);
+
+  padding:
+    0.55rem
+    0.8rem;
+
+  border-radius: 8px;
+
+  font-size: 0.77rem;
+  font-weight: 800;
+
+  letter-spacing: 0.04em;
+}
+
+.formula-plus {
+  color: var(--pink);
+
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+
+/* =========================================================
+   TABLES
+   ========================================================= */
+
+table {
+  width: 100%;
+
+  background: white;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  margin:
+    1.5rem 0;
+}
+
+thead {
+  background: var(--illinois-navy);
+  color: white;
+}
+
+thead th {
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background: #F8F9FB;
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+a {
+  color: var(--pink-dark);
+
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--illinois-orange);
+}
+
+
+/* =========================================================
+   TOC
+   ========================================================= */
+
+#TOC {
+  font-size: 0.88rem;
+}
+
+#TOC .active {
+  color: var(--pink) !important;
+  font-weight: 700;
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a:hover {
+  color: var(--illinois-orange);
+}
+
+
+/* =========================================================
+   PRACTICE
+   ========================================================= */
+
+.practice-box {
+  background:
+    linear-gradient(
+      135deg,
+      #FFF1F6,
+      #FFF8F2
+    );
+
+  border: 1px solid #F0D7E1;
+
+  border-radius: 16px;
+
+  padding: 1.5rem;
+
+  margin:
+    1.5rem 0;
+}
+
+
+/* =========================================================
+   FINAL BOX
+   ========================================================= */
+
+.final-box {
+  background: var(--illinois-navy);
+
+  color: white;
+
+  border-radius: 16px;
+
+  padding: 1.7rem;
+
+  margin:
+    2rem 0;
+}
+
+.final-box h2,
+.final-box h3 {
+  color: white;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .quarto-title h1.title {
+    font-size: 2.3rem;
+  }
+
+  .card-grid,
+  .compare-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 1.4rem;
+  }
+
+}
+
+</style>
+
+
+```{r}
+#| label: setup
+#| include: false
+
+library(ggplot2)
+
+plants <- data.frame(
+  plant = 1:20,
+
+  treatment = rep(
+    c("Control", "Fertilizer"),
+    each = 10
+  ),
+
+  height = c(
+    12.1, 11.5, 13.2, 12.8, 11.9,
+    12.6, 13.4, 12.2, 11.8, 13.0,
+    15.2, 14.8, 16.1, 15.5, 14.9,
+    15.7, 16.4, 14.6, 15.1, 16.0
+  ),
+
+  biomass = c(
+    4.1, 3.8, 4.4, 4.2, 4.0,
+    4.3, 4.5, 4.0, 3.9, 4.3,
+    5.2, 5.0, 5.6, 5.3, 5.1,
+    5.5, 5.8, 4.9, 5.2, 5.6
+  )
+)
+```
+
+
+::: {.hero}
+
+<div class="hero-label"> Documented instructions developed for students at the CPSC 440 - UIUC </div>
+
+## New to R? Start here.
+
+This guide covers the R basics I think are most useful when you're starting a statistics class: how RStudio is organized, how data are stored, a few functions you'll use all the time, and how to make your first plots with `ggplot2`. 
+
+You don't need any previous coding experience.
+
+<div class="pill-row">
+
+<span class="pill">Beginner level</span>
+
+<span class="pill">Statistics focused</span>
+
+<span class="pill">ggplot2 included</span>
+
+</div>
+
+:::
+
+
+## What we'll cover
+
+<div class="card-grid">
+
+<div class="info-card">
+
+### RStudio basics
+
+Where to write code, where R runs it, and where to find your files, plots, and objects.
+
+</div>
+
+<div class="info-card">
+
+### Working with data
+
+Objects, vectors, data frames, missing values, and a few basic ways to inspect a dataset.
+
+</div>
+
+<div class="info-card">
+
+### Descriptive statistics
+
+Means, medians, standard deviations, ranges, and summaries.
+
+</div>
+
+<div class="info-card">
+
+### Data visualization
+
+The basic structure of `ggplot2`, plus scatterplots, histograms, and boxplots.
+
+</div>
+
+</div>
+
+
+<div class="section-label">STARTING WITH THE BASICS</div>
+
+# R and RStudio are different things
+
+This distinction is useful from the beginning.
+
+<div class="compare-grid">
+
+<div class="compare-card compare-r">
+
+### R
+
+**R is the language doing the work.**
+
+It performs the calculations, fits the models, manipulates the data, and creates the figures.
+
+For example:
+
+```r
+mean(height)
+```
+
+</div>
+
+<div class="compare-card compare-rstudio">
+
+### RStudio
+
+**RStudio is the interface we use to work with R.**
+
+It gives us a place to write scripts, run code, view plots, inspect datasets, and organize files.
+
+</div>
+
+</div>
+
+A simple way to remember it is:
+
+> **R is the engine; RStudio is the workspace around it.**
+
+
+# Getting familiar with RStudio
+
+When you first open RStudio, there are usually four main areas.
+
+## Source
+
+The **Source** pane is where you write and save scripts.
+
+For example, an R script might contain:
+
+```r
+height <- c(10, 12, 15, 13, 11)
+
+mean(height)
+sd(height)
+```
+
+This is where most of your analysis should live.
+
+## Console
+
+The **Console** is where R executes commands.
+
+Try:
+
+```{r}
+5 * 10
+```
+
+You can type commands directly into the Console, but they are not automatically saved as part of your analysis.
+
+::: {.warning-box}
+
+I use the Console for quick checks, but I would not recommend doing an entire homework assignment or analysis there. Put code you want to keep in a script.
+
+:::
+
+## Environment
+
+The **Environment** shows the objects currently stored in your R session.
+
+For example:
+
+```{r}
+my_number <- 42
+```
+
+After running that line, `my_number` should appear in the Environment.
+
+## Files, Plots, Packages, and Help
+
+The lower-right panel has a few tabs you will use often.
+
+- **Files** — navigate through your project files
+- **Plots** — view figures created in R
+- **Packages** — see installed packages
+- **Help** — open R documentation
+
+
+# Start with an RStudio Project
+
+For class work, I recommend creating an RStudio Project for each course or analysis.
+
+Go to:
+
+> **File → New Project → New Directory → New Project**
+
+You might call it:
+
+```text
+statistics-class
+```
+
+A simple project could look like:
+
+```text
+statistics-class/
+│
+├── data/
+│   └── experiment.csv
+│
+├── figures/
+│
+├── scripts/
+│   └── analysis.R
+│
+└── statistics-class.Rproj
+```
+
+::: {.tip-box}
+
+Using a Project helps keep your code and data together and makes it much easier to come back to an analysis later.
+
+It also saves you from file paths like:
+
+```text
+/Users/name/Desktop/statistics/final/final2/REAL_final/data.csv
+```
+
+:::
+
+
+<div class="section-label">R BASICS</div>
+
+# Using R as a calculator
+
+At the simplest level, R can do regular arithmetic.
+
+```{r}
+2 + 2
+```
+
+```{r}
+10 - 5
+```
+
+```{r}
+10 * 5
+```
+
+```{r}
+10 / 5
+```
+
+Exponents use `^`:
+
+```{r}
+2^3
+```
+
+And parentheses work the same way they do in regular mathematics:
+
+```{r}
+(10 + 5) * 2
+```
+
+Compare that with:
+
+```{r}
+10 + 5 * 2
+```
+
+R follows the usual order of operations.
+
+
+# Creating objects
+
+An **object** stores something so that we can use it again later.
+
+For example:
+
+```{r}
+x <- 10
+```
+
+The `<-` symbol is the **assignment operator**.
+
+I usually read:
+
+```r
+x <- 10
+```
+
+as:
+
+> Put `10` into an object called `x`.
+
+Now we can call that object:
+
+```{r}
+x
+```
+
+Create another one:
+
+```{r}
+y <- 5
+```
+
+and use them together:
+
+```{r}
+x + y
+```
+
+```{r}
+x * y
+```
+
+
+## Objects can contain different types of information
+
+Numbers:
+
+```{r}
+age <- 25
+```
+
+Text:
+
+```{r}
+name <- "Maria"
+```
+
+Logical values:
+
+```{r}
+student <- TRUE
+```
+
+`TRUE` and `FALSE` are logical values in R. They become especially useful later when we start filtering data.
+
+
+# A note on object names
+
+You can technically call objects almost anything, but meaningful names make code much easier to read.
+
+This:
+
+```r
+plant_height <- 15
+```
+
+is more informative than:
+
+```r
+x <- 15
+```
+
+I usually prefer lowercase names separated with underscores:
+
+```text
+plant_height
+plant_biomass
+treatment_group
+mean_height
+```
+
+::: {.warning-box}
+
+**R is case-sensitive.**
+
+These are three different names:
+
+```text
+height
+Height
+HEIGHT
+```
+
+If you create `height` and later type `Height`, R will not treat them as the same object.
+
+:::
+
+
+# Vectors
+
+Statistics almost always involves more than one observation.
+
+A **vector** stores several values of the same general type.
+
+Suppose we measured the height of five plants:
+
+```{r}
+height <- c(
+  12.1,
+  11.5,
+  13.2,
+  12.8,
+  11.9
+)
+```
+
+The `c()` function means **combine**.
+
+Run:
+
+```{r}
+height
+```
+
+and R prints all five values.
+
+
+<div class="section-label">DESCRIPTIVE STATISTICS</div>
+
+# Summarizing a vector
+
+Once the measurements are stored in R, we can calculate basic descriptive statistics directly.
+
+## Mean
+
+```{r}
+mean(height)
+```
+
+## Median
+
+```{r}
+median(height)
+```
+
+## Standard deviation
+
+```{r}
+sd(height)
+```
+
+## Variance
+
+```{r}
+var(height)
+```
+
+## Minimum and maximum
+
+```{r}
+min(height)
+max(height)
+```
+
+## Range
+
+```{r}
+range(height)
+```
+
+## Number of observations
+
+```{r}
+length(height)
+```
+
+## A quick summary
+
+```{r}
+summary(height)
+```
+
+`summary()` is especially useful for getting a quick look at a numeric variable.
+
+::: {.note-box}
+
+Before jumping into a statistical test, spend a little time looking at the data.
+
+At minimum, I usually want to know:
+
+- the center of the distribution;
+- how variable the observations are;
+- the range;
+- whether values are missing;
+- whether anything looks unusual.
+
+:::
+
+
+# Functions and arguments
+
+Commands such as:
+
+```text
+mean()
+sd()
+summary()
+```
+
+are **functions**.
+
+A function takes an input and does something with it.
+
+For example:
+
+```{r}
+mean(height)
+```
+
+applies `mean()` to `height`.
+
+Functions can also have additional arguments.
+
+```{r}
+round(
+  mean(height),
+  digits = 2
+)
+```
+
+Here, `digits = 2` tells `round()` to keep two decimal places.
+
+
+# Missing values
+
+Missing values are common in real datasets.
+
+R represents a missing value as:
+
+```text
+NA
+```
+
+For example:
+
+```{r}
+height_missing <- c(
+  12.1,
+  11.5,
+  NA,
+  12.8,
+  11.9
+)
+```
+
+Now try:
+
+```{r}
+mean(height_missing)
+```
+
+R returns `NA`.
+
+To calculate the mean using the available observations:
+
+```{r}
+mean(
+  height_missing,
+  na.rm = TRUE
+)
+```
+
+`na.rm = TRUE` tells the function to remove missing values before doing the calculation.
+
+
+<div class="section-label">WORKING WITH DATA</div>
+
+# Data frames
+
+Most statistical datasets contain several variables.
+
+In R, one common way to store this type of dataset is a **data frame**.
+
+A useful way to think about it is:
+
+> **Rows are observations. Columns are variables.**
+
+Let's create a small plant experiment.
+
+```{r}
+plants <- data.frame(
+
+  plant = 1:20,
+
+  treatment = rep(
+    c("Control", "Fertilizer"),
+    each = 10
+  ),
+
+  height = c(
+    12.1, 11.5, 13.2, 12.8, 11.9,
+    12.6, 13.4, 12.2, 11.8, 13.0,
+    15.2, 14.8, 16.1, 15.5, 14.9,
+    15.7, 16.4, 14.6, 15.1, 16.0
+  ),
+
+  biomass = c(
+    4.1, 3.8, 4.4, 4.2, 4.0,
+    4.3, 4.5, 4.0, 3.9, 4.3,
+    5.2, 5.0, 5.6, 5.3, 5.1,
+    5.5, 5.8, 4.9, 5.2, 5.6
+  )
+)
+```
+
+Take a look:
+
+```{r}
+plants
+```
+
+The data frame has 20 observations and four variables:
+
+- `plant`
+- `treatment`
+- `height`
+- `biomass`
+
+
+# Always inspect a new dataset
+
+Before analyzing a dataset, look at it.
+
+These functions are good starting points.
+
+## First rows
+
+```{r}
+head(plants)
+```
+
+## Structure
+
+```{r}
+str(plants)
+```
+
+## Dimensions
+
+```{r}
+dim(plants)
+```
+
+## Variable names
+
+```{r}
+names(plants)
+```
+
+## Summary
+
+```{r}
+summary(plants)
+```
+
+::: {.warning-box}
+
+This is worth doing before fitting any model.
+
+Check that R interpreted your variables the way you expected. A numeric variable accidentally imported as text, for example, can create problems later.
+
+:::
+
+
+# Accessing one variable
+
+The `$` operator lets us access a column from a data frame.
+
+```{r}
+plants$height
+```
+
+We can then use that column in a function:
+
+```{r}
+mean(plants$height)
+```
+
+```{r}
+sd(plants$height)
+```
+
+For biomass:
+
+```{r}
+mean(plants$biomass)
+```
+
+
+<div class="section-label">PACKAGES</div>
+
+# Extending R with packages
+
+Base R already does a lot, but packages add additional functions.
+
+A few packages that come up frequently in statistics are:
+
+| Package | Common use |
+|---|---|
+| `ggplot2` | Data visualization |
+| `dplyr` | Data manipulation |
+| `tidyr` | Reshaping data |
+| `readr` | Importing data |
+| `lme4` | Mixed models |
+| `emmeans` | Estimated marginal means |
+
+
+## Installing a package
+
+You generally install a package once.
+
+For example:
+
+```{r}
+#| eval: false
+
+install.packages("ggplot2")
+```
+
+I normally run installation commands directly in the Console.
+
+
+## Loading a package
+
+Once it is installed:
+
+```{r}
+library(ggplot2)
+```
+
+You load the package again when starting a new R session.
+
+::: {.tip-box}
+
+A useful distinction:
+
+**Install once**
+
+```r
+install.packages("ggplot2")
+```
+
+**Load when you use it**
+
+```r
+library(ggplot2)
+```
+
+:::
+
+
+<div class="section-label section-label-pink">DATA VISUALIZATION</div>
+
+# Getting started with ggplot2
+
+`ggplot2` is one of the most commonly used R packages for data visualization.
+
+At first, its syntax can look a little strange. The key is realizing that a plot is built in layers.
+
+<div class="ggplot-formula">
+
+<span class="formula-part">DATA</span>
+
+<span class="formula-plus">+</span>
+
+<span class="formula-part">AESTHETICS</span>
+
+<span class="formula-plus">+</span>
+
+<span class="formula-part">GEOM</span>
+
+<span class="formula-plus">+</span>
+
+<span class="formula-part">LABELS / THEME</span>
+
+</div>
+
+The basic structure looks like:
+
+```r
+ggplot(
+  data,
+  aes(x = ..., y = ...)
+) +
+  geom_...()
+```
+
+There are three main pieces.
+
+### Data
+
+Which dataset are we using?
+
+```r
+ggplot(plants)
+```
+
+### Aesthetics
+
+Which variables should be represented?
+
+```r
+aes(
+  x = height,
+  y = biomass
+)
+```
+
+### Geometry
+
+How should those observations be drawn?
+
+For a scatterplot:
+
+```r
+geom_point()
+```
+
+Put everything together:
+
+```{r}
+ggplot(
+  plants,
+  aes(
+    x = height,
+    y = biomass
+  )
+) +
+  geom_point()
+```
+
+
+# Scatterplots
+
+A scatterplot is useful when both variables are quantitative.
+
+For example:
+
+> Is plant height related to biomass?
+
+```{r}
+#| fig-width: 7
+#| fig-height: 5
+
+ggplot(
+  plants,
+  aes(
+    x = height,
+    y = biomass
+  )
+) +
+  geom_point(
+    size = 3,
+    alpha = 0.8,
+    color = "#13294B"
+  ) +
+  labs(
+    title = "Plant height and biomass",
+    subtitle = "Each point represents one plant",
+    x = "Plant height",
+    y = "Plant biomass"
+  ) +
+  theme_classic(
+    base_size = 13
+  ) +
+  theme(
+    plot.title = element_text(
+      face = "bold",
+      color = "#13294B"
+    ),
+    plot.subtitle = element_text(
+      color = "#667085"
+    )
+  )
+```
+
+
+# Adding a regression line
+
+We can add a fitted linear regression using `geom_smooth()`.
+
+```{r}
+#| fig-width: 7
+#| fig-height: 5
+
+ggplot(
+  plants,
+  aes(
+    x = height,
+    y = biomass
+  )
+) +
+  geom_point(
+    size = 3,
+    alpha = 0.8,
+    color = "#13294B"
+  ) +
+  geom_smooth(
+    method = "lm",
+    color = "#FF5F05",
+    fill = "#FFB7D5",
+    linewidth = 1
+  ) +
+  labs(
+    title = "Plant height and biomass",
+    subtitle = "Linear fit with 95% confidence interval",
+    x = "Plant height",
+    y = "Plant biomass"
+  ) +
+  theme_classic(
+    base_size = 13
+  ) +
+  theme(
+    plot.title = element_text(
+      face = "bold",
+      color = "#13294B"
+    ),
+    plot.subtitle = element_text(
+      color = "#667085"
+    )
+  )
+```
+
+`method = "lm"` tells `ggplot2` to fit a linear model.
+
+::: {.note-box}
+
+The regression line is useful for visualizing the relationship, but the graph itself is not a substitute for statistical inference.
+
+A formal model could be fit separately with:
+
+```r
+lm(
+  biomass ~ height,
+  data = plants
+)
+```
+
+:::
+
+
+# Histograms
+
+A histogram is useful for looking at the distribution of one quantitative variable.
+
+```{r}
+#| fig-width: 7
+#| fig-height: 5
+
+ggplot(
+  plants,
+  aes(x = height)
+) +
+  geom_histogram(
+    bins = 7,
+    fill = "#FF5F05",
+    color = "white",
+    linewidth = 0.5
+  ) +
+  labs(
+    title = "Distribution of plant height",
+    x = "Plant height",
+    y = "Number of plants"
+  ) +
+  theme_classic(
+    base_size = 13
+  ) +
+  theme(
+    plot.title = element_text(
+      face = "bold",
+      color = "#13294B"
+    )
+  )
+```
+
+A histogram can help us look at:
+
+- the center of the distribution;
+- spread;
+- skewness;
+- unusual observations;
+- possible multiple modes.
+
+
+# Boxplots
+
+Suppose the question is:
+
+> Does plant height differ between treatment groups?
+
+We have:
+
+- one categorical variable: `treatment`
+- one quantitative variable: `height`
+
+A boxplot is a reasonable place to start.
+
+```{r}
+#| fig-width: 7
+#| fig-height: 5
+
+ggplot(
+  plants,
+  aes(
+    x = treatment,
+    y = height
+  )
+) +
+  geom_boxplot(
+    width = 0.55,
+    fill = "#FFB7D5",
+    color = "#13294B",
+    linewidth = 0.8
+  ) +
+  labs(
+    title = "Plant height by treatment",
+    x = NULL,
+    y = "Plant height"
+  ) +
+  theme_classic(
+    base_size = 13
+  ) +
+  theme(
+    plot.title = element_text(
+      face = "bold",
+      color = "#13294B"
+    )
+  )
+```
+
+A boxplot shows the median, quartiles, spread, and potential outliers.
+
+
+# Show the raw observations too
+
+With a small dataset, I usually prefer seeing the individual observations.
+
+We can combine `geom_boxplot()` and `geom_jitter()`:
+
+```{r}
+#| fig-width: 7
+#| fig-height: 5
+
+ggplot(
+  plants,
+  aes(
+    x = treatment,
+    y = height
+  )
+) +
+  geom_boxplot(
+    width = 0.52,
+    fill = "#FFB7D5",
+    color = "#13294B",
+    linewidth = 0.8,
+    outlier.shape = NA
+  ) +
+  geom_jitter(
+    width = 0.08,
+    size = 2.7,
+    alpha = 0.75,
+    color = "#13294B"
+  ) +
+  labs(
+    title = "Plant height by treatment",
+    subtitle = "Individual observations are shown over the boxplots",
+    x = NULL,
+    y = "Plant height"
+  ) +
+  theme_classic(
+    base_size = 13
+  ) +
+  theme(
+    plot.title = element_text(
+      face = "bold",
+      color = "#13294B"
+    ),
+    plot.subtitle = element_text(
+      color = "#667085"
+    )
+  )
+```
+
+::: {.tip-box}
+
+A boxplot summarizes the distribution. The points show you what was actually observed.
+
+With small sample sizes, I find that combination much more informative than a boxplot alone.
+
+:::
+
+
+# Mapping variables to color
+
+Color can also represent a variable.
+
+For example:
+
+```{r}
+#| fig-width: 7
+#| fig-height: 5
+
+ggplot(
+  plants,
+  aes(
+    x = height,
+    y = biomass,
+    color = treatment
+  )
+) +
+  geom_point(
+    size = 3
+  ) +
+  scale_color_manual(
+    values = c(
+      "Control" = "#13294B",
+      "Fertilizer" = "#FF5F05"
+    )
+  ) +
+  labs(
+    title = "Height and biomass by treatment",
+    x = "Plant height",
+    y = "Plant biomass",
+    color = "Treatment"
+  ) +
+  theme_classic(
+    base_size = 13
+  ) +
+  theme(
+    plot.title = element_text(
+      face = "bold",
+      color = "#13294B"
+    )
+  )
+```
+
+
+# Inside vs. outside `aes()`
+
+This causes a lot of confusion at first.
+
+If you write:
+
+```r
+aes(
+  color = treatment
+)
+```
+
+you are telling `ggplot2`:
+
+> Use the variable `treatment` to determine color.
+
+But if you write:
+
+```r
+geom_point(
+  color = "#13294B"
+)
+```
+
+you are saying:
+
+> Make every point this same color.
+
+So a useful rule is:
+
+::: {.note-box}
+
+**Inside `aes()` → a variable controls the visual property.**
+
+**Outside `aes()` → you manually set the visual property.**
+
+:::
+
+
+# Which graph should I use?
+
+There isn't one plot that works for every question.
+
+A simple starting point is to identify the types of variables involved.
+
+| Question | Variables | Useful first plot |
+|---|---|---|
+| What does one continuous variable look like? | Quantitative | Histogram |
+| How does a measurement differ between groups? | Categorical + quantitative | Boxplot + raw points |
+| Are two quantitative variables related? | Quantitative + quantitative | Scatterplot |
+| How many observations are in each group? | Categorical | Bar plot |
+| How does a measurement change over time? | Time + quantitative | Line plot |
+
+The statistical question should come first. The graph comes after.
+
+
+<div class="section-label">SAVING YOUR WORK</div>
+
+# Saving a ggplot
+
+A plot can be stored as an R object.
+
+```{r}
+height_plot <- ggplot(
+  plants,
+  aes(
+    x = treatment,
+    y = height
+  )
+) +
+  geom_boxplot(
+    width = 0.52,
+    fill = "#FFB7D5",
+    color = "#13294B",
+    outlier.shape = NA
+  ) +
+  geom_jitter(
+    width = 0.08,
+    color = "#13294B"
+  ) +
+  labs(
+    x = NULL,
+    y = "Plant height"
+  ) +
+  theme_classic()
+
+height_plot
+```
+
+Then save it with `ggsave()`:
+
+```{r}
+#| eval: false
+
+ggsave(
+  filename = "figures/plant_height.png",
+  plot = height_plot,
+  width = 7,
+  height = 5,
+  dpi = 300
+)
+```
+
+I prefer saving figures through code rather than using the Export button because it makes the output reproducible.
+
+
+# Scripts vs. the Console
+
+A simple analysis script might look like:
+
+```{r}
+#| eval: false
+
+# Load packages
+library(ggplot2)
+
+# Import data
+plants <- read.csv(
+  "data/plants.csv"
+)
+
+# Look at the data
+head(plants)
+str(plants)
+summary(plants)
+
+# Descriptive statistics
+mean(
+  plants$height,
+  na.rm = TRUE
+)
+
+sd(
+  plants$height,
+  na.rm = TRUE
+)
+
+# Plot
+ggplot(
+  plants,
+  aes(
+    x = treatment,
+    y = height
+  )
+) +
+  geom_boxplot() +
+  geom_jitter(
+    width = 0.08
+  ) +
+  theme_classic()
+```
+
+Save that in something like:
+
+```text
+scripts/01_analysis.R
+```
+
+
+# Running code in RStudio
+
+To run a line from a script:
+
+### macOS
+
+```text
+Command + Enter
+```
+
+### Windows
+
+```text
+Ctrl + Enter
+```
+
+You can also highlight several lines and run them together.
+
+
+# Comments
+
+Anything after `#` is a comment.
+
+R ignores comments when running the script.
+
+```{r}
+# Calculate the mean plant height
+mean(plants$height)
+```
+
+Comments are useful for separating steps and documenting decisions.
+
+For example:
+
+```r
+# Load required package
+library(ggplot2)
+
+# Inspect data before analysis
+summary(plants)
+
+# Compare treatment groups
+ggplot(
+  plants,
+  aes(
+    x = treatment,
+    y = height
+  )
+) +
+  geom_boxplot()
+```
+
+
+# Getting help
+
+You do not need to memorize every R function.
+
+For built-in help:
+
+```{r}
+#| eval: false
+
+?mean
+```
+
+or:
+
+```{r}
+#| eval: false
+
+help(mean)
+```
+
+You can do the same thing with package functions:
+
+```{r}
+#| eval: false
+
+?geom_boxplot
+```
+
+Being able to read function documentation is much more useful than trying to memorize every argument.
+
+
+<div class="section-label">WHEN SOMETHING BREAKS</div>
+
+# A few common beginner errors
+
+## `object not found`
+
+You may see something like:
+
+```text
+Error: object 'Height' not found
+```
+
+Check:
+
+- spelling;
+- capitalization;
+- whether the line creating the object was actually run.
+
+
+## Missing quotation marks
+
+This will not work:
+
+```{r}
+#| eval: false
+
+name <- Maria
+```
+
+This will:
+
+```{r}
+name <- "Maria"
+```
+
+
+## `could not find function`
+
+If you see:
+
+```text
+could not find function "ggplot"
+```
+
+you probably need:
+
+```r
+library(ggplot2)
+```
+
+
+## The Console suddenly shows `+`
+
+Sometimes the Console changes from:
+
+```text
+>
+```
+
+to:
+
+```text
++
+```
+
+That usually means R thinks your command is incomplete.
+
+Common causes are a missing:
+
+```text
+)
+"
+}
+```
+
+Press **Esc** to cancel the command and check the syntax.
+
+
+<div class="section-label section-label-pink">PRACTICE</div>
+
+# Try it yourself
+
+::: {.practice-box}
+
+Suppose yield was measured for six crop varieties.
+
+| Variety | Yield |
+|---|---:|
+| A | 4.2 |
+| B | 5.1 |
+| C | 4.8 |
+| D | 5.5 |
+| E | 3.9 |
+| F | 5.3 |
+
+Create the dataset:
+
+```r
+yield_data <- data.frame(
+  variety = c(
+    "A", "B", "C",
+    "D", "E", "F"
+  ),
+  yield = c(
+    4.2, 5.1, 4.8,
+    5.5, 3.9, 5.3
+  )
+)
+```
+
+Then answer:
+
+1. What is the mean yield?
+2. What is the standard deviation?
+3. What is the maximum yield?
+4. Which variety has the highest yield?
+5. Make a plot comparing the six varieties.
+
+:::
+
+
+## One possible solution
+
+```{r}
+
+yield_data <- data.frame(
+  variety = c(
+    "A", "B", "C",
+    "D", "E", "F"
+  ),
+  yield = c(
+    4.2, 5.1, 4.8,
+    5.5, 3.9, 5.3
+  )
+)
+
+mean(yield_data$yield)
+
+sd(yield_data$yield)
+
+max(yield_data$yield)
+
+yield_data[
+  which.max(yield_data$yield),
+]
+```
+
+And a quick plot:
+
+```{r}
+#| fig-width: 7
+#| fig-height: 5
+
+ggplot(
+  yield_data,
+  aes(
+    x = variety,
+    y = yield
+  )
+) +
+  geom_col(
+    fill = "#FF5F05",
+    width = 0.7
+  ) +
+  labs(
+    title = "Yield by crop variety",
+    x = "Variety",
+    y = "Yield"
+  ) +
+  theme_classic(
+    base_size = 13
+  ) +
+  theme(
+    plot.title = element_text(
+      face = "bold",
+      color = "#13294B"
+    )
+  )
+```
+
+
+<div class="section-label">QUICK REFERENCE</div>
+
+# A few functions worth remembering
+
+<div class="card-grid">
+
+<div class="info-card">
+
+### Summarize
+
+```r
+mean(x)
+median(x)
+sd(x)
+var(x)
+range(x)
+summary(x)
+```
+
+</div>
+
+<div class="info-card">
+
+### Inspect data
+
+```r
+head(data)
+str(data)
+dim(data)
+names(data)
+summary(data)
+```
+
+</div>
+
+<div class="info-card">
+
+### ggplot2
+
+```r
+ggplot()
+aes()
+geom_point()
+geom_boxplot()
+geom_histogram()
+geom_jitter()
+```
+
+</div>
+
+<div class="info-card">
+
+### Packages
+
+```r
+install.packages()
+library()
+```
+
+</div>
+
+</div>
+
+
+# Where to go next
+
+Once these basics feel comfortable, the next useful step is learning how to import and manipulate real datasets.
+
+That usually means getting familiar with functions such as:
+
+```text
+read_csv()
+select()
+filter()
+mutate()
+arrange()
+group_by()
+summarise()
+```
+
+From there, it becomes much easier to connect the R workflow to methods from a statistics class:
+
+- t-tests;
+- ANOVA;
+- correlation;
+- linear regression;
+- multiple regression;
+- mixed models.
+
+
+::: {.final-box}
+
+## A good workflow to keep in mind
+
+**Import the data**
+
+↓
+
+**Inspect and clean the data**
+
+↓
+
+**Visualize the data**
+
+↓
+
+**Calculate descriptive statistics**
+
+↓
+
+**Choose and fit an appropriate statistical model**
+
+↓
+
+**Check assumptions**
+
+↓
+
+**Interpret the results**
+
+The goal is not to memorize R syntax. It is to get comfortable enough with R that the code stops getting in the way of the statistics.
+
+:::
