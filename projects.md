@@ -25,4 +25,3 @@ The method combines an intercept-only linear mixed model adjustment with a rando
 - Residual permutation testing
 - Genome-Wide Feature Importance visualization
 
-Large cassava and maize/Ames datasets associated with the manuscript are archived separately and are not stored directly in the GitHub repository.

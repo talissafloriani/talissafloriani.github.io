@@ -32,6 +32,4 @@ SMRF was developed as a complementary machine-learning approach for genome-wide 
 
 ### Data availability
 
-Large cassava and maize/Ames datasets associated with the manuscript are archived separately and are not stored directly in the GitHub repository.
-
 The GitHub repository stores the SMRF code, documentation, and small example files.
